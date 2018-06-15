@@ -1,3 +1,29 @@
+# Windows Server and SQL Server 2008/R2 end of support planning
+
+Many customers have huge on-premises footprints of Windows Server and SQL Server 2008 and 2008 R2, but these products are rapidly approaching End of Support. This session is designed to help customers understand the risks of running unsupported software, and presents great options for using EOS to modernize in Azure or on-premises.
+
+# Target audience
+
+- Database Administrators
+- IT Professionals
+- Enterprise Architects
+
+# Abstract
+
+# Whiteboard Design Session
+
+This whiteboard design session will look at the process of migrating workloads to Azure. Attendees will leave with the information they need to develop a solid migration plan to keep their mission-critical apps and data protected as they transition and modernize their application, data and infrastructure environment. Topics will include how to get an inventory of your 2008 server environment, how to categorize 208 workloads and evaluate the best option for each category, migration and upgrade tools available, TCO analysis tools, offers available from Microsoft to leverage existing licenses and innovations of recent product updates, licensing and technologies.
+
+# Azure Services Used 
+
+- Azure Migrate
+
+- Azure Database Migration Service
+
+- Azure Cost Management
+
+- Azure TCO Calculator
+
 
 # Contributing
 
