@@ -2,30 +2,34 @@
 
 Many customers have huge on-premises footprints of Windows Server and SQL Server 2008 and 2008 R2, but these products are rapidly approaching End of Support. This session is designed to help customers understand the risks of running unsupported software, and presents great options for using EOS to modernize in Azure or on-premises.
 
-# Target audience
+## Target audience
 
 - Database Administrators
 - IT Professionals
 - Enterprise Architects
 
-# Abstract
+## Abstract
 
-# Whiteboard Design Session
+### Workshop
+
+### Whiteboard Design Session
 
 This whiteboard design session will look at the process of migrating workloads to Azure. Attendees will leave with the information they need to develop a solid migration plan to keep their mission-critical apps and data protected as they transition and modernize their application, data and infrastructure environment. Topics will include how to get an inventory of your 2008 server environment, how to categorize 208 workloads and evaluate the best option for each category, migration and upgrade tools available, TCO analysis tools, offers available from Microsoft to leverage existing licenses and innovations of recent product updates, licensing and technologies.
 
-# Azure Services Used 
+### Hands-on lab
+There is no hands-on lab for the workshop at this time. 
 
+## Azure services and related products 
 - Azure Migrate
-
 - Azure Database Migration Service
-
 - Azure Cost Management
-
 - Azure TCO Calculator
 
+## Azure hero solution
 
-# Contributing
+## Related references
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -39,7 +43,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
+## Legal Notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
