@@ -11,7 +11,7 @@ Many customers have huge on-premises footprints of Windows Server and SQL Server
 ## Abstract
 
 ### Workshop
-This workshop has only has a whiteboard design session at this time, please see below for abstract. 
+This workshop only has a whiteboard design session at this time, please see below for abstract. 
 
 ### Whiteboard Design Session
 This whiteboard design session will look at the process of migrating workloads to Azure. Attendees will leave with the information they need to develop a solid migration plan to keep their mission-critical apps and data protected as they transition and modernize their application, data and infrastructure environment. Topics will include how to get an inventory of your 2008 server environment, how to categorize 208 workloads and evaluate the best option for each category, migration and upgrade tools available, TCO analysis tools, offers available from Microsoft to leverage existing licenses and innovations of recent product updates, licensing and technologies.
