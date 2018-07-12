@@ -1,6 +1,6 @@
 # Windows Server and SQL Server 2008 R2 end of support planning
 
-Many customers have huge on-premises footprints of Windows Server and SQL Server 2008 and 2008 R2, but these products are rapidly approaching End of Support. This workshop is designed to help customers understand the risks of running unsupported software, and presents great options for using EOS to modernize in Azure or on-premises.
+Many customers have huge on-premises footprints of Windows Server, SQL Server 2008, and 2008 R2, but these products are rapidly approaching End of Support. This workshop is designed to help customers understand the risks of running unsupported software, and presents great options for using EOS to modernize in Azure or on-premises.
 
 ## Target audience
 
