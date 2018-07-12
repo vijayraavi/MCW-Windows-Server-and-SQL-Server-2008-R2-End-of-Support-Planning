@@ -192,9 +192,19 @@ Directions: With all participants in the session, the facilitator/SME presents a
 
 Fabrikam is an automotive parts manufacturer based in the United States. They are an OEM manufacturer of parts for commercial vehicles. They have manufacturing plants throughout the US and Mexico. Fabrikam competes globally with other manufacturers for contracts, this highly competitive environment makes Fabrikam very price sensitive. 
 
-Fabrikam is preparing for Windows and SQL Server 2008/R2 end of support and would like to better understand their options for upgrade and migration. Fabrikam does not have a complete company wide inventory of the number of servers and applications running on legacy software and many of the systems are undocumented and not well understood by IT staff. They want to understand their current workloads and they would like to take advantage of the cloud where appropriate.  
+"We are preparing for Windows and SQL Server 2008/R2 end of support and would like to better understand our options for upgrade and migration.", Sloane Peterson, Fabrikam CIO
+
+Fabrikam does not have a complete company wide inventory of the number of servers and applications running on legacy software and many of the systems are undocumented and not well understood by IT staff. They want to understand their current workloads and they would like to take advantage of the cloud where appropriate.  
 
 Fabrikam currently has many legacy applications that are running on Windows Server 2008 including a line of business inventory management system that also leverages SQL Server 2008. The inventory management system is considered a mission critical application. It is highly complex and is leveraged by various parts of the business with many upstream and downstream dependencies. Some of these dependencies are Linux systems. Because many of these systems are critical to the business they need to understand the business continuity and disaster recovery options when upgrading in place or migrating to the cloud.
+
+The Inventory Management system is one of the most critical systems at Fabrikam. It was originally architected when the company was much smaller. It currently runs on Windows Server 2008 R2 with a separate SQL Server 2008 backend. The application team that supports it would ultimately like to rearchitect the system for better scalability and to take better advantage of new innovations in inventory tracking. They see cloud technologies as a good fit for this type of application but they lack the experience, expertise and time to rebuild the application right now.  
+
+They would like a short term plan to maintain support of the system while the application team reskills and gains experience in Azure. 
+
+They would also like a long term plan to take advantage of the new advancements in SQL Server while still getting the most out of their Azure investment by minimizing the administrative overhead.
+
+"We would love to take advantage of the cloud to minimize the administrative overhead of the Inventory Management System, we simply cannot get all of the dependencies sorted out before the official end of support." Frances Bradley, Manager Inventory Applications
 
 ### Customer needs 
 
@@ -214,11 +224,13 @@ Fabrikam currently has many legacy applications that are running on Windows Serv
 
 1.  We have hundreds of applications that are running on servers that are nearing end of support. Some are virtual machines running on VMWare, some are older physical machines. Does Microsoft have any tools to help us identify these applications?
 
-1.  We need to minimize the amount of downtime during migration. How will we do this? What kind of downtime are we looking at?
+1.  "We need to minimize the amount of downtime during migration. How will we do this? What kind of downtime are we looking at?", Jude Watkins, Director of Database Operations
 
 1.  When migrating workloads into Azure, how do we handle security and authentication? Will my workloads continue to use the same authentication that was used on-premises?
 
 1.  Some of our data has very strict regulatory constraints and cannot leave the country of origin, how do we handle this type of data in Azure? Will my data be replicated or located in another country?
+
+1.  How will migrating from SQL Server to Azure SQL Database impact the role of our database administration team?
 
 ### Infographic for common scenarios
 
@@ -265,9 +277,7 @@ _Asses - Plan for end of support_
 
     a.  Maintain current version
 
-    b.  Migrate to cloud
-
-    d.  Upgrade in-place
+    b.  Rehost - Migrate to cloud
 
 _Migrate - Upgrade in place or migrate to Azure_
 
@@ -283,11 +293,9 @@ _Migrate - Upgrade in place or migrate to Azure_
 
 -  **SQL Server Upgrades and Migrations**: Provide Fabrikam with detailed migration steps. At a minimum, your steps should cover the following scenarios:
 
-    a.  How will on-premises SQL Servers that will be migrated to Azure virtual machines be migrated?
+    a.  How SQL Servers that will be migrated to Azure virtual machines be migrated?
 
-    b.  How will on-premises SQL databases that will be migrated to Azure SQL Database be migrated?
-
-    c.  How will on-premises SQL databases that will be migrated to Azure SQL Database Managed Instances be migrated? 
+    b.  How SQL databases that will be migrated to Azure SQL Database and Azure SQL Database Managed Instances be migrated? 
 
 -  **Diagram the solution**
 
@@ -436,7 +444,17 @@ _Asses - Plan for end of support_
 
     - Microsoft Assessment and Planning Toolkit: The MAP Toolkit provides agentless discovery and inventory of computers and applications, hardware and software migration readiness assessments, software usage tracking, and capacity planning for virtualization, public and private cloud migration.
 
+    - Database Migration Guide: The Database Migration Guide creates a custom report on how to migrate your source data to the destination of your choice: on-premises, cloud, private cloud, IaaS or PaaS.
+
     - Azure Database Migration Service: Use the Azure Database Migration service to analyze existing on premises databases and migrate them to Azure SQL Database or Azure SQL Databases Managed Instances. 
+
+    - Data Migration Assistant: Data Migration Assistant (DMA) enables you to upgrade to a modern data platform by detecting compatibility issues that can impact database functionality on your new version of SQL Server. It recommends performance and reliability improvements for your target environment. It allows you to not only move your schema and data, but also uncontained objects from your source server to your target server.
+
+    - Database Experimentation Assistant: Database Experimentation Assistant (DEA) is an A/B testing solution for SQL Server upgrades. It will assist in evaluating a targeted version of SQL Server for a given workload. Customers who are upgrading from previous SQL Server versions (SQL Server 2005 and above) to any new version of the SQL Server will be able to use these analysis metrics.
+
+    - Migration Partners: There are a variety of migration partners to assist with migration. Managed Service Providers can help you drive migration initiatives and manage your resources once they're in Azure. Systems integrators can help you drive migration initiatives by providing project management and technical consulting.
+
+        ![](images/2018-07-12-08-54-25.png)
 
 - **Cost/Benefit Analysis:** Fabrikam currently has Software Assurance. Provide a high-level cost/benefit analysis of the following options available to Fabrikam:
 
@@ -446,11 +464,9 @@ _Asses - Plan for end of support_
 
     **Answer:** Fabrikam has several options they can take advantage of depending on the strategy they choose for each application workload. 
 
-    a. If they are not in a position to upgrade a given system immediately, they can purchase Premium Assurance. Premium Assurance provides additional support of up to 6 years giving you time to upgrade or migrate at your own pace. Premium Assurance is purchased seperately for Windows Server and SQL Server. It includes security updates and bulletins rated "critical" and "important". Pricing is tiered with lower pricing the sooner you purchase. 
+    a. If they are not in a position to upgrade a given system immediately, they can purchase Extended Security Updates. Extended Security Updates allows you to purchase up to 3 years of additional security updates for Windows Server and SQL Server 2008 and 2008 R2.  
 
-    ![](images/2018-06-07-13-49-38.png)
-
-    b. Rehosting to Azure give you the flexibility and scalability of the cloud. Fabrikam can take advantage of Azure Hybrid Benefits for Windows and SQL when migrating to Azure. Additionally, migrating your virtual machines to Azure will get you 3 more years of Extended Security Updates for Windows Server and SQL Server 2008/R2 at no additional charge.
+    b. Rehosting to Azure give you the flexibility and scalability of the cloud. Fabrikam can take advantage of Azure Hybrid Benefits for Windows and SQL when migrating to Azure. Additionally, migrating your virtual machines to Azure virtual machines will get you 3 more years of Extended Security Updates for Windows Server and SQL Server 2008/R2 at no additional charge.
 
     For Windows Server, Azure Hybrid Benefit saves Fabrikam the OS costs when migrating to an Azure Virtual Machine and an additional 3 years of Extended Security Updates. 
 
@@ -462,6 +478,10 @@ _Asses - Plan for end of support_
         Enterprise Edition license = 4x General Purpose vCore
 
     For those that cannot migrate to Azure there is also an option to purchase Extened Security Updates. 
+
+    To estimate cost savings, Fabrikam should use the Azure TCO Calculator.
+
+    ![](images/2018-07-12-08-58-34.png)
 
 _Migrate - Upgrade in place or migrate to Azure_
 
@@ -478,7 +498,7 @@ _Migrate - Upgrade in place or migrate to Azure_
             - Your applications or database requirements can only be met using an Azure IaaS VM.
             - You need to move the application with no code changes
 
-    1. **Refactor**: Refactoring, often referred to as "repackaging," is a cloud migration approach that lets you minimally alter application code or apply configuration changes necessary to connect the application to Azure PaaS and take better advantage of the cloud. For example, you can move your existing apps to Azure App Service or Azure Kubernetes Service (AKS). You can also refactor your relational and non-relational databases into Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB
+    2. **Refactor**: Refactoring, often referred to as "repackaging," is a cloud migration approach that lets you minimally alter application code or apply configuration changes necessary to connect the application to Azure PaaS and take better advantage of the cloud. For example, you can move your existing apps to Azure App Service or Azure Kubernetes Service (AKS). You can also refactor your relational and non-relational databases into Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB
 
         - Use cases:
             - You need to use an existing code base and development skills, and code portability is a concern.
@@ -486,7 +506,7 @@ _Migrate - Upgrade in place or migrate to Azure_
             - You want to apply innovative DevOps practices provided by Azure.
             - Your IT team is investing in DevOps using a container strategy for certain workloads.
 
-    1. **Rearchitect**: Modify or extend an existing application's code base to optimize the application architecture for cloud scale. For example, decompose a monolithic application into microservices that work together and readily scale. And rearchitect your relational and non-relational databases to Azure fully-managed DBaaS solutions, like Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB.
+    3. **Rearchitect**: Modify or extend an existing application's code base to optimize the application architecture for cloud scale. For example, decompose a monolithic application into microservices that work together and readily scale. And rearchitect your relational and non-relational databases to Azure fully-managed DBaaS solutions, like Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB.
 
         - Use cases:
             - Your application needs a major revision to incorporate new capabilities or to work more effectively on a cloud platform.
@@ -495,7 +515,7 @@ _Migrate - Upgrade in place or migrate to Azure_
             - You want to minimize use of virtual machines.
             - You want to apply innovative DevOps practices provided by Azure.
 
-    1. **Rebuild**: Rebuild an application from scratch using cloud-native technologies from Azure. For example, build greenfield applications with cloud-native technologies like serverless, Azure AI, Azure SQL Database Managed Instance, Azure Cosmos DB, and others
+    4. **Rebuild**: Rebuild an application from scratch using cloud-native technologies from Azure. For example, build greenfield applications with cloud-native technologies like serverless, Azure AI, Azure SQL Database Managed Instance, Azure Cosmos DB, and others
 
         - Use cases:
             - You want rapid development, and the existing application is limiting in terms of functionality and lifespan.
@@ -518,14 +538,12 @@ _Migrate - Upgrade in place or migrate to Azure_
 
     a.  How SQL Servers that will be migrated to Azure virtual machines be migrated?
 
-    b.  How SQL databases that will be migrated to Azure SQL Database be migrated?
-
-    c.  How SQL databases that will be migrated to Azure SQL Database Managed Instances be migrated? 
+    b.  How SQL databases that will be migrated to Azure SQL Database and Azure SQL Database Managed Instances be migrated?
 
     **Answer:** 
-    All migrations from on-premises databases to Azure should take advantage of the Azure Database Migration Service. This will allow you to assess compatibility prior to the actual migration and in some cases will allow you to orchestrate the migration directly from the Database Migration Service. 
+    All migrations from on-premises databases to Azure should take advantage of the Azure Database Migration Service. This will allow you to assess compatibility prior to the actual migration and in some cases will allow you to orchestrate the migration directly from the Database Migration Service. You should consult the Database Migration Guide for details of various database source and target combinations.
     
-    SQL Server instances that will be migrated to Azure virtual machines have numerous options for migration depending on the edition of SQL Server and the application requirements. 
+    a.  SQL Server instances that will be migrated to Azure virtual machines have numerous options for migration depending on the edition of SQL Server and the application requirements. 
     - Use the Data Migration Assistant (DMA) to migrate the schema and data into an Azure VM.
     - Perform an on-premises backup using compression, and then manually copy the backup file into an Azure VM.
     - Perform a backup to URL, and then restore into an Azure VM from the URL.
@@ -538,7 +556,7 @@ _Migrate - Upgrade in place or migrate to Azure_
 
     To minimize downtime of your migration you should use either Always On Availability Groups or Transactional Replication. Keep in mind that neither of these options will migrate objects such as user logins and SQL Agent jobs which may need to be scripted and applied to the destination instance of SQL Server. 
 
-    Individual SQL databases that will by migrated to Azure SQL Database or Azure SQL Database Managed Instances should be migrated using the Azure Database Migration Service. This will allow you to assess compatibility prior to the actual migration. Note that the Azure Database Migration Service does not currently support data sync with minimal downtime cutover. 
+    b.  Individual SQL databases that will by migrated to Azure SQL Database or Azure SQL Database Managed Instances should be migrated using the Azure Database Migration Service. This will allow you to assess compatibility prior to the actual migration. Note that the Azure Database Migration Service does not currently support data sync with minimal downtime cutover. 
 
 
 _Optimize_
@@ -580,7 +598,8 @@ _Optimize_
 
     **Potential answer:**
 
-    Since Fabrikam has Software Assurance benefits, they are eligable to purchase Premium Assurance licenses for those servers that may not be upgraded due to supportability or third party support requirements. Premium Assurance also provides you with the ability to receive hotfixes and maintain compliance. 
+    Since Fabrikam has Software Assurance benefits, they are eligible to purchase Extended Security Updates for those servers that may not be upgraded due to supportability or third party support requirements all while allowing you to maintain compliance. 
+
 
 2.  We have hundreds of applications that are running on servers that are nearing end of support. Some are virtual machines running on VMWare, some are older physical machines. Does Microsoft have any tools to help us identify these applications?
 
@@ -593,16 +612,14 @@ _Optimize_
 
     - Microsoft Assessment and Planning Toolkit: The MAP Toolkit provides agentless discovery and inventory of computers and applications, hardware and software migration readiness assessments, software usage tracking, and capacity planning for virtualization, public and private cloud migration.
 
-    - Azure Database Migration Service: Use the Azure Database Migration service to analyze existing on premises databases and migrate them to Azure SQL Database or Azure SQL Databases Managed Instances. 
-
 
 3.  We need to minimize the amount of downtime during migration. How will we do this? What kind of downtime are we looking at?
 
     **Potential answer:**
 
-    Different systems will have different requirements when it comes to application migration. While some systems might be fine with a weekend outage, others will require minimal downtime on the order of minutes or seconds. For those systems that require minimal downtime we can script most of the tasks and limit downtime to minutes, if not seconds. 
+    Different systems will have different requirements when it comes to application migration. While some systems might be fine with a weekend outage, others will require minimal downtime on the order of minutes or seconds. For those systems that require minimal downtime we can leverage tools such as the Azure Database Migration Service for near-zero downtime. 
 
-4.  When migrating workloads into Azure, how do we handle security and authentication? Will my workloads continue to use the same authentication that was used on-premises or will I need to maintain a seperate identity platform?
+4.  When migrating workloads into Azure, how do we handle security and authentication? Will my workloads continue to use the same authentication that was used on-premises or will I need to maintain a separate identity platform?
 
     **Potential answer:**
 
@@ -616,7 +633,7 @@ _Optimize_
 
 ## Customer quote (to be read back to the attendees at the end)
 
-"By migrating our on-premises workloads to Azure we have been able to get out of the datacenter business and focus on our own business."
+"With Microsoft's server and database migration tools we have the building blocks we need to accelerate our cloud strategy while minimizing migration downtime and maintaining compliance."
 
---- Jude Watkins, VP of Information Technology, Fabrikam
+--- Jude Watkins, Director of Database Operations, Fabrikam
 
