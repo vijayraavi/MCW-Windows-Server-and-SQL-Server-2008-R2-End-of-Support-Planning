@@ -5,11 +5,11 @@ Windows Server and SQL Server 2008/R2 End of Support Planning
 </div>
 
 <div class="MCWHeader2">
-Whiteboard design session  trainer guide
+Whiteboard design session trainer guide
 </div>
 
 <div class="MCWHeader3">
-May 2018
+July 2018
 </div>
 
 
