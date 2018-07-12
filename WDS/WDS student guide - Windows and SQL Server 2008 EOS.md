@@ -1,7 +1,7 @@
-![](images/HeaderPic.png "Microsoft Cloud Workshops")
+![Microsoft Cloud Workshop](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
 
 <div class="MCWHeader1">
-Windows Server and SQL Server 2008/R2 End of Support Planning
+Windows Server and SQL Server 2008/R2 End of Support planning
 </div>
 
 <div class="MCWHeader2">
@@ -27,7 +27,7 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 
 <!-- TOC -->
 
-- [Windows Server 2008 and SQL Server 2008 End of Support Planning whiteboard design session student guide](#windows-server-2008-and-sql-server-2008-end-of-support-planning-whiteboard-design-session-student-guide)
+- [Windows Server 2008 and SQL Server 2008 End of Support planning whiteboard design session student guide](#windows-server-2008-and-sql-server-2008-end-of-support-planning-whiteboard-design-session-student-guide)
     - [Abstract and learning objectives](#abstract-and-learning-objectives)
     - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
         - [Customer situation](#customer-situation)
@@ -42,27 +42,21 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 <!-- /TOC -->
 
 
-# Windows Server 2008 and SQL Server 2008 End of Support Planning whiteboard design session student guide
+# Windows Server 2008 and SQL Server 2008 End of Support planning whiteboard design session student guide
 
 ## Abstract and learning objectives
 
-Many customers have huge on-premises footprints of Windows and SQL Server 2008 and 2008 R2, but these products are rapidly approaching End of Support. This whiteboard design session is designed to help customers understand the risks of running unsupported software, and presents great options for using EOS to modernize in Azure or on-premises.
-
-Attendees will leave with the information they need to develop a solid migration plan to keep their mission-critical apps and data protected as they transition and modernize their application, data and infrastructure environment.
-
-- How to get an inventory of your 2008 server environment
-- How to categorize 2008 workloads, and evaluate the best option for each category
-- Migration and upgrade tools available
-- TCO analysis tools, plus great offers from Microsoft to leverage existing licenses
-- Innovations of recent product updates, licensing and technologies
-
+Many customers have huge on-premises footprints of Windows and SQL Server 2008 and 2008 R2, but these products are rapidly approaching End of Support.
+This whiteboard design session will look at the process of migrating workloads to Azure. You will leave with the information needed to develop a solid migration plan to keep mission-critical apps and data protected as your customers transition and modernize their application, data, and infrastructure environment. Topics will include how to get an inventory of 2008 server environments, how to categorize 2008 workloads and evaluate the best option for each category, migration and upgrade tools available, TCO analysis tools, offers available from Microsoft to leverage existing licenses and innovations in recent product updates, licensing, and technologies.
 
 ## Step 1: Review the customer case study 
 
 **Outcome** 
 
 Analyze your customer’s needs.
-Time frame: 15 minutes 
+
+Timeframe: 15 minutes
+
 Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips. 
 1.  Meet your table participants and trainer 
 2.  Read all of the directions for steps 1–3 in the student guide 
@@ -89,29 +83,29 @@ They would also like a long term plan to take advantage of the new advancements 
 
 ### Customer needs 
 
-1.  Identify migration and upgrade tools to help in assessing, migrating and optimizing the current environment.
+1.  Identify migration and upgrade tools to help in assessing, migrating and optimizing the current environment
 
-1.  Fabrikam needs to build an inventory of their current systems and provide some organization around the various systems they have in place. The inventory should include dependencies and tiering of the applications to help in prioritizing application upgrades and migrations.
+2.  Fabrikam needs to build an inventory of their current systems and provide some organization around the various systems they have in place. The inventory should include dependencies and tiering of the applications to help in prioritizing application upgrades and migrations.
 
-1.  Fabrikam has a large mix of applications including Micrososft, third-party and custom applications. They need to evaluate the upgrade options for each workload.
+3.  Fabrikam has a large mix of applications including Micrososft, third-party and custom applications. They need to evaluate the upgrade options for each workload.
 
-1.  They would like to modernize applications and take advantage of the cloud where it makes sense. How should they go about identifying suitable applications and the costs of running them in Azure?
+4.  They would like to modernize applications and take advantage of the cloud where it makes sense. How should they go about identifying suitable applications and the costs of running them in Azure?
 
-1.  Applications that are not moving to Azure will need to be optimized on premises.
+5.  Applications that are not moving to Azure will need to be optimized on-premises
 
 ### Customer objections 
 
-1.  We have some 3rd party applications where we do not have complete control of the code or schema. We will not be able to upgrade these applications before the end of support. What options do we have for these applications?
+1.  We have some third-party applications where we do not have complete control of the code or schema. We will not be able to upgrade these applications before the end of support. What options do we have for these applications?
 
-1.  We have hundreds of applications that are running on servers that are nearing end of support. Some are virtual machines running on VMWare, some are older physical machines. Does Microsoft have any tools to help us identify these applications?
+2.  We have hundreds of applications that are running on servers that are nearing end of support. Some are virtual machines running on VMWare, some are older physical machines. Does Microsoft have any tools to help us identify these applications?
 
-1.  "We need to minimize the amount of downtime during migration. How will we do this? What kind of downtime are we looking at?", Jude Watkins, Director of Database Operations
+3.  We need to minimize the amount of downtime during migration. How will we do this? What kind of downtime are we looking at?
 
-1.  When migrating workloads into Azure, how do we handle security and authentication? Will my workloads continue to use the same authentication that was used on-premises?
+4.  When migrating workloads into Azure, how do we handle security and authentication? Will my workloads continue to use the same authentication that was used on-premises?
 
-1.  Some of our data has very strict regulatory constraints and cannot leave the country of origin, how do we handle this type of data in Azure? Will my data be replicated or located in another country?
+5.  Some of our data has very strict regulatory constraints and cannot leave the country of origin, how do we handle this type of data in Azure? Will data be replicated or located in other countries or regions? 
 
-1.  How will migrating from SQL Server to Azure SQL Database impact the role of our database administration team?
+6.  How will migrating from SQL Server to Azure SQL Database impact the role of our database administration team?
 
 ### Infographic for common scenarios
 
@@ -134,9 +128,10 @@ They would also like a long term plan to take advantage of the new advancements 
 ## Step 2: Design a proof of concept solution
 
 **Outcome** 
+
 Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format. 
 
-Time frame: 60 minutes
+Timeframe: 60 minutes
 
 **Business needs**
 
@@ -157,7 +152,6 @@ _Asses - Plan for end of support_
 - **Cost Analysis:** Fabrikam currently has Software Assurance. Provide a cost analysis of the following options available to Fabrikam:
 
     a.  Maintain current version
-
     b.  Rehost - Migrate to cloud
 
 _Migrate - Upgrade in place or migrate to Azure_
@@ -167,28 +161,25 @@ _Migrate - Upgrade in place or migrate to Azure_
 -  **Windows Server Upgrades and Migrations**: Detailed migration steps:
 
     a.  How will physical machines be migrated to Azure?
-
     b.  How will machines hosted in VMWare be migrated to Azure?
-
     c. Some IIS based web sites will be migrated to Azure Web Apps. Document the requirements and the process for migrating to Azure Web Apps. 
 
 -  **SQL Server Upgrades and Migrations**: Provide Fabrikam with detailed migration steps. At a minimum, your steps should cover the following scenarios:
 
     a.  How SQL Servers that will be migrated to Azure virtual machines be migrated?
-
     b.  How SQL databases that will be migrated to Azure SQL Database and Azure SQL Database Managed Instances be migrated? 
 
 -  **Diagram the solution**
 
 _Optimize_
 
--  **Security and Authentication:** - How will Active Directory be managed in the cloud? Will we continue to do things the way we have in the past?
+-  **Security and Authentication:** How will Active Directory be managed in the cloud? Will we continue to do things the way we have in the past?
 
--  **Cost management:** - With the ease of deploying and scaling services in the cloud we are concerned about cost management. What tools can we leverage to help us with cost management?
+-  **Cost management:** With the ease of deploying and scaling services in the cloud we are concerned about cost management. What tools can we leverage to help us with cost management?
 
--  **Compliance:** - We want to make sure that our cloud resources are properly secured so that we can maintain compliance. How do we monitor security and maintain compliance in the cloud? What about systems that remain on premises?
+-  **Compliance:** We want to make sure that our cloud resources are properly secured so that we can maintain compliance. How do we monitor security and maintain compliance in the cloud? What about systems that remain on-premises?
 
--  **SQL Database Management:** - What type of database administration tasks can we automate in Azure SQL Database? We are looking to minimize the amount of administrative tasks our DBAs are doing and focus them on higher value tasks.
+-  **SQL Database Management:** What type of database administration tasks can we automate in Azure SQL Database? We are looking to minimize the amount of administrative tasks our DBAs are doing and focus them on higher value tasks.
 
 **Prepare**
 
@@ -207,24 +198,24 @@ Prepare a 15-minute chalk-talk style presentation to the customer.
  
 Present a solution to the target customer audience in a 15-minute chalk-talk format.
 
-Time frame: 30 minutes
+Timeframe: 30 minutes
 
 **Presentation** 
 
 Directions:
-1.  Pair with another table.
-2.  One table is the Microsoft team and the other table is the customer.
-3.  The Microsoft team presents their proposed solution to the customer.
-4.  The customer makes one of the objections from the list of objections.
-5.  The Microsoft team responds to the objection.
-6.  The customer team gives feedback to the Microsoft team. 
-7.  Tables switch roles and repeat Steps 2–6.
+1.  Pair with another table
+2.  One table is the Microsoft team and the other table is the customer
+3.  The Microsoft team presents their proposed solution to the customer
+4.  The customer makes one of the objections from the list of objections
+5.  The Microsoft team responds to the objection
+6.  The customer team gives feedback to the Microsoft team.
+7.  Tables switch roles and repeat Steps 2–6
 
 ##  Wrap-up 
 
-Time frame: 15 minutes
+Timeframe: 15 minutes
 
--   Tables reconvene with the larger group to hear a SME share the preferred solution for the case study
+Directions: Tables reconvene with the larger group to hear the facilitator/SME share the preferred solution for the case study.
 
 ##  Additional references
 |    |            |
