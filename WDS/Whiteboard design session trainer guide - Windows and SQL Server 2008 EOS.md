@@ -236,19 +236,19 @@ They would also like a long term plan to take advantage of the new advancements 
 
 **Azure Migrate**
 
-![](images/2018-06-15-15-58-44.png)
+![Azure Migrate allows easy discovery VMWare VMs and applications including service dependencies](images/2018-06-15-15-58-44.png)
 
 **Azure Database Migration Service**
 
-![](images/2018-06-15-15-59-12.png)
+![The Azure Database Migration Service allows you to migrate from multiple database sources to Azure Data platforms with minimal downtime](images/2018-06-15-15-59-12.png)
 
 **Azure Security Center**
 
-![](images/2018-06-15-15-59-48.png)
+![The Azure Security Center provides a unified view of security across on-premises and cloud workloads](images/2018-06-15-15-59-48.png)
 
 **Cost Management for Azure**
 
-![](images/2018-06-15-16-00-20.png)
+![Azure Cost Management by Cloudyn allows you to monitor and visualize usage and cost to better optimize your cloud spend](images/2018-06-15-16-00-20.png)
 
 ## Step 2: Design a proof of concept solution
 
@@ -452,9 +452,9 @@ _Asses - Plan for end of support_
 
     - Database Experimentation Assistant: Database Experimentation Assistant (DEA) is an A/B testing solution for SQL Server upgrades. It will assist in evaluating a targeted version of SQL Server for a given workload. Customers who are upgrading from previous SQL Server versions (SQL Server 2005 and above) to any new version of the SQL Server will be able to use these analysis metrics.
 
-    - Migration Partners: There are a variety of migration partners to assist with migration. Managed Service Providers can help you drive migration initiatives and manage your resources once they're in Azure. Systems integrators can help you drive migration initiatives by providing project management and technical consulting.
+    - Migration Partners: There are a variety of migration partners to assist with migration. Managed Service Providers can help you drive migration initiatives and manage your resources once they're in Azure. Systems integrators can help you drive migration initiatives by providing project management and technical consulting. A complete list of partners can be found at the Azure Migration Center web page: https://azure.microsoft.com/migration 
 
-        ![](images/2018-07-12-08-54-25.png)
+        ![Find a complete list of migration partners on the Azure Migration Center web page](images/2018-07-12-08-54-25.png)
 
 - **Cost/Benefit Analysis:** Fabrikam currently has Software Assurance. Provide a high-level cost/benefit analysis of the following options available to Fabrikam:
 
@@ -481,7 +481,7 @@ _Asses - Plan for end of support_
 
     To estimate cost savings, Fabrikam should use the Azure TCO Calculator.
 
-    ![](images/2018-07-12-08-58-34.png)
+    ![Graphic of the Azure TCO Calculator showing an example of the potential cost savings from an Azure migration](images/2018-07-12-08-58-34.png)
 
 _Migrate - Upgrade in place or migrate to Azure_
 
