@@ -165,16 +165,9 @@ When participants are doing activities, you can **look ahead to refresh your mem
 
 ## Abstract and learning objectives
 
-Many customers have huge on-premises footprints of Windows and SQL Server 2008 and 2008 R2, but these products are rapidly approaching End of Support. This whiteboard design session is designed to help customers understand the risks of running unsupported software, and presents great options for using EOS to modernize in Azure or on-premises.
+Many customers have huge on-premises footprints of Windows and SQL Server 2008 and 2008 R2, but these products are rapidly approaching End of Support. 
 
-Attendees will leave with the information they need to develop a solid migration plan to keep their mission-critical apps and data protected as they transition and modernize their application, data and infrastructure environment.
-
-- How to get an inventory of your 2008 server environment
-- How to categorize 2008 workloads, and evaluate the best option for each category
-- Migration and upgrade tools available
-- TCO analysis tools, plus great offers from Microsoft to leverage existing licenses
-- Innovations of recent product updates, licensing and technologies
-
+This whiteboard design session will look at the process of migrating workloads to Azure. You will leave with the information needed to develop a solid migration plan to keep mission-critical apps and data protected as your customers transition and modernize their application, data, and infrastructure environment. Topics will include how to get an inventory of 2008 server environments, how to categorize 2008 workloads and evaluate the best option for each category, migration and upgrade tools available, TCO analysis tools, offers available from Microsoft to leverage existing licenses and innovations in recent product updates, licensing, and technologies.
 
 ## Step 1: Review the customer case study 
 
@@ -188,7 +181,6 @@ Directions: With all participants in the session, the facilitator/SME presents a
 1.  Meet your table participants and trainer 
 2.  Read all of the directions for steps 1–3 in the student guide 
 3.  As a table team, review the following customer case study
-
 
 ### Customer situation
 
@@ -210,29 +202,29 @@ They would also like a long term plan to take advantage of the new advancements 
 
 ### Customer needs 
 
-1.  Identify migration and upgrade tools to help in assessing, migrating and optimizing the current environment.
+1.  Identify migration and upgrade tools to help in assessing, migrating and optimizing the current environment
 
-1.  Fabrikam needs to build an inventory of their current systems and provide some organization around the various systems they have in place. The inventory should include dependencies and tiering of the applications to help in prioritizing application upgrades and migrations.
+2.  Fabrikam needs to build an inventory of their current systems and provide some organization around the various systems they have in place. The inventory should include dependencies and tiering of the applications to help in prioritizing application upgrades and migrations.
 
-1.  Fabrikam has a large mix of applications including Micrososft, third-party and custom applications. They need to evaluate the upgrade options for each workload.
+3.  Fabrikam has a large mix of applications including Micrososft, third-party and custom applications. They need to evaluate the upgrade options for each workload.
 
-1.  They would like to modernize applications and take advantage of the cloud where it makes sense. How should they go about identifying suitable applications and the costs of running them in Azure?
+4.  They would like to modernize applications and take advantage of the cloud where it makes sense. How should they go about identifying suitable applications and the costs of running them in Azure?
 
-1.  Applications that are not moving to Azure will need to be optimized on premises.
+5.  Applications that are not moving to Azure will need to be optimized on-premises
 
 ### Customer objections 
 
-1.  We have some 3rd party applications where we do not have complete control of the code or schema. We will not be able to upgrade these applications before the end of support. What options do we have for these applications?
+1.  We have some third-party applications where we do not have complete control of the code or schema. We will not be able to upgrade these applications before the end of support. What options do we have for these applications?
 
-1.  We have hundreds of applications that are running on servers that are nearing end of support. Some are virtual machines running on VMWare, some are older physical machines. Does Microsoft have any tools to help us identify these applications?
+2.  We have hundreds of applications that are running on servers that are nearing end of support. Some are virtual machines running on VMWare, some are older physical machines. Does Microsoft have any tools to help us identify these applications?
 
-1.  "We need to minimize the amount of downtime during migration. How will we do this? What kind of downtime are we looking at?", Jude Watkins, Director of Database Operations
+3.  We need to minimize the amount of downtime during migration. How will we do this? What kind of downtime are we looking at?
 
-1.  When migrating workloads into Azure, how do we handle security and authentication? Will my workloads continue to use the same authentication that was used on-premises?
+4.  When migrating workloads into Azure, how do we handle security and authentication? Will my workloads continue to use the same authentication that was used on-premises?
 
-1.  Some of our data has very strict regulatory constraints and cannot leave the country of origin, how do we handle this type of data in Azure? Will my data be replicated or located in another country?
+5.  Some of our data has very strict regulatory constraints and cannot leave the country of origin, how do we handle this type of data in Azure? Will data be replicated or located in other countries or regions? 
 
-1.  How will migrating from SQL Server to Azure SQL Database impact the role of our database administration team?
+6.  How will migrating from SQL Server to Azure SQL Database impact the role of our database administration team?
 
 ### Infographic for common scenarios
 
@@ -279,7 +271,6 @@ _Asses - Plan for end of support_
 - **Cost Analysis:** Fabrikam currently has Software Assurance. Provide a cost analysis of the following options available to Fabrikam:
 
     a.  Maintain current version
-
     b.  Rehost - Migrate to cloud
 
 _Migrate - Upgrade in place or migrate to Azure_
@@ -289,28 +280,25 @@ _Migrate - Upgrade in place or migrate to Azure_
 -  **Windows Server Upgrades and Migrations**: Detailed migration steps:
 
     a.  How will physical machines be migrated to Azure?
-
     b.  How will machines hosted in VMWare be migrated to Azure?
-
     c. Some IIS based web sites will be migrated to Azure Web Apps. Document the requirements and the process for migrating to Azure Web Apps. 
 
 -  **SQL Server Upgrades and Migrations**: Provide Fabrikam with detailed migration steps. At a minimum, your steps should cover the following scenarios:
 
     a.  How SQL Servers that will be migrated to Azure virtual machines be migrated?
-
     b.  How SQL databases that will be migrated to Azure SQL Database and Azure SQL Database Managed Instances be migrated? 
 
 -  **Diagram the solution**
 
 _Optimize_
 
--  **Security and Authentication:** - How will Active Directory be managed in the cloud? Will we continue to do things the way we have in the past?
+-  **Security and Authentication:** How will Active Directory be managed in the cloud? Will we continue to do things the way we have in the past?
 
--  **Cost management:** - With the ease of deploying and scaling services in the cloud we are concerned about cost management. What tools can we leverage to help us with cost management?
+-  **Cost management:** With the ease of deploying and scaling services in the cloud we are concerned about cost management. What tools can we leverage to help us with cost management?
 
--  **Compliance:** - We want to make sure that our cloud resources are properly secured so that we can maintain compliance. How do we monitor security and maintain compliance in the cloud? What about systems that remain on premises?
+-  **Compliance:** We want to make sure that our cloud resources are properly secured so that we can maintain compliance. How do we monitor security and maintain compliance in the cloud? What about systems that remain on-premises?
 
--  **SQL Database Management:** - What type of database administration tasks can we automate in Azure SQL Database? We are looking to minimize the amount of administrative tasks our DBAs are doing and focus them on higher value tasks.
+-  **SQL Database Management:** What type of database administration tasks can we automate in Azure SQL Database? We are looking to minimize the amount of administrative tasks our DBAs are doing and focus them on higher value tasks.
 
 **Prepare**
 
@@ -491,28 +479,28 @@ _Migrate - Upgrade in place or migrate to Azure_
     1. **Rehost**: This strategy is often referred to as "lift and shift" migration, this no-code option lets you migrate your existing applications to Azure quickly. Each application is migrated as-is, which provides the benefits of the cloud without the risks or costs of making code changes.
 
         - Use cases:
-            - You need to move applications from your datacenter to the cloud quickly.
-            - Your apps are architected to leverage Azure IaaS scalability.
-            - Your business requires the applications but doesn’t need to change their capabilities right away.
-            - Your applications or database requirements can only be met using an Azure IaaS VM.
+            - You need to move applications from your datacenter to the cloud quickly
+            - Your apps are architected to leverage Azure IaaS scalability
+            - Your business requires the applications but doesn’t need to change their capabilities right away
+            - Your applications or database requirements can only be met using an Azure IaaS VM
             - You need to move the application with no code changes
 
     2. **Refactor**: Refactoring, often referred to as "repackaging," is a cloud migration approach that lets you minimally alter application code or apply configuration changes necessary to connect the application to Azure PaaS and take better advantage of the cloud. For example, you can move your existing apps to Azure App Service or Azure Kubernetes Service (AKS). You can also refactor your relational and non-relational databases into Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB
 
         - Use cases:
-            - You need to use an existing code base and development skills, and code portability is a concern.
-            - Your application can be easily repackaged to work in Azure.
-            - You want to apply innovative DevOps practices provided by Azure.
-            - Your IT team is investing in DevOps using a container strategy for certain workloads.
+            - You need to use an existing code base and development skills, and code portability is a concern
+            - Your application can be easily repackaged to work in Azure
+            - You want to apply innovative DevOps practices provided by Azure
+            - Your IT team is investing in DevOps using a container strategy for certain workloads
 
     3. **Rearchitect**: Modify or extend an existing application's code base to optimize the application architecture for cloud scale. For example, decompose a monolithic application into microservices that work together and readily scale. And rearchitect your relational and non-relational databases to Azure fully-managed DBaaS solutions, like Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB.
 
         - Use cases:
-            - Your application needs a major revision to incorporate new capabilities or to work more effectively on a cloud platform.
-            - You want to make use of existing application investments.
-            - You want to meet scalability requirements in a cost-effective way.
-            - You want to minimize use of virtual machines.
-            - You want to apply innovative DevOps practices provided by Azure.
+            - Your application needs a major revision to incorporate new capabilities or to work more effectively on a cloud platform
+            - You want to make use of existing application investments
+            - You want to meet scalability requirements in a cost-effective way
+            - You want to minimize use of virtual machines
+            - You want to apply innovative DevOps practices provided by Azure
 
     4. **Rebuild**: Rebuild an application from scratch using cloud-native technologies from Azure. For example, build greenfield applications with cloud-native technologies like serverless, Azure AI, Azure SQL Database Managed Instance, Azure Cosmos DB, and others
 
@@ -528,10 +516,10 @@ _Migrate - Upgrade in place or migrate to Azure_
     **Answer:** In both cases, Azure Site Recovery is the recommended tool for performing a migration to Azure virutal machines. Virtual Machines hosted in VMWare can also take advantage of the Azure Migrate tool to orchestrate the process.
 
     Basic steps for migrating with Azure Site Recovery:
-    - Prepare Azure resources, including an Azure subscription, an Azure virtual network, and a storage account.
+    - Prepare Azure resources, including an Azure subscription, an Azure virtual network, and a storage account
     - Prepare your on-premises VMware servers for migration. You verify VMware support requirements for Site Recovery, prepare VMware servers for discovery, and prepare to install the Site Recovery Mobility service on VMs that you want to migrate.
     - Set up migration. You set up a Recovery Services vault, configure source and target migration settings, set up a replication policy, and enable replication. You can run a disaster recovery drill to check that migration of a VM to Azure is working correctly.
-    - Run a failover to migrate on-premises machines to Azure. 
+    - Run a failover to migrate on-premises machines to Azure
 
 -  **SQL Server Upgrades and Migrations**: Migration steps:
 
@@ -543,15 +531,15 @@ _Migrate - Upgrade in place or migrate to Azure_
     All migrations from on-premises databases to Azure should take advantage of the Azure Database Migration Service. This will allow you to assess compatibility prior to the actual migration and in some cases will allow you to orchestrate the migration directly from the Database Migration Service. You should consult the Database Migration Guide for details of various database source and target combinations.
     
     a.  SQL Server instances that will be migrated to Azure virtual machines have numerous options for migration depending on the edition of SQL Server and the application requirements. 
-    - Use the Data Migration Assistant (DMA) to migrate the schema and data into an Azure VM.
-    - Perform an on-premises backup using compression, and then manually copy the backup file into an Azure VM.
-    - Perform a backup to URL, and then restore into an Azure VM from the URL.
-    - Detach and copy the data and log files to Azure Blob storage, and then attach to an Azure VM from the URL.
-    - Convert an on-premises VW to Hyper-V VHDs, upload to Azure Blob storage, and then deploy a new Azure VM using the uploaded VHD.
-    - Use Azure Site Recovery to replicate the entire virtual machine to Azure.
-    - Ship a hard drive using Windows Import/Export Service.
-    - Use the Add Azure Replica Wizard. This option uses Always On Availability Groups to replicate your data to a replica hosted in Azure.
-    - Use SQL Server transactional replication.
+    - Use the Data Migration Assistant (DMA) to migrate the schema and data into an Azure VM
+    - Perform an on-premises backup using compression, and then manually copy the backup file into an Azure VM
+    - Perform a backup to URL, and then restore into an Azure VM from the URL
+    - Detach and copy the data and log files to Azure Blob storage, and then attach to an Azure VM from the URL
+    - Convert an on-premises VW to Hyper-V VHDs, upload to Azure Blob storage, and then deploy a new Azure VM using the uploaded VHD
+    - Use Azure Site Recovery to replicate the entire virtual machine to Azure
+    - Ship a hard drive using Windows Import/Export Service
+    - Use the Add Azure Replica Wizard. This option uses Always On Availability Groups to replicate your data to a replica hosted in Azure
+    - Use SQL Server transactional replication
 
     To minimize downtime of your migration you should use either Always On Availability Groups or Transactional Replication. Keep in mind that neither of these options will migrate objects such as user logins and SQL Agent jobs which may need to be scripted and applied to the destination instance of SQL Server. 
 
@@ -579,7 +567,7 @@ _Optimize_
 
     Role based access control allows you to limit access to subscriptions, resource groups and resources.
     
-    Azure Security Center provides
+    Azure Security Center provides:
     -  Centralized policy management – Ensure compliance with company or regulatory security requirements by centrally managing security policies across all your hybrid cloud workloads.
     -  Continuous security assessment – Monitor the security posture of machines, networks, storage and data services, and applications to discover potential security issues.
     -  Actionable recommendations – Remediate security vulnerabilities before they can be exploited by attackers with prioritized and actionable security recommendations.
@@ -589,7 +577,7 @@ _Optimize_
 
 ## Checklist of preferred objection handling
 
-1.  We have some 3rd party applications where we do not have complete control of the code or schema. We will not be able to upgrade these applications before the end of support. What options do we have for these applications?
+1.  We have some third-party applications where we do not have complete control of the code or schema. We will not be able to upgrade these applications before the end of support. What options do we have for these applications?
 
     **Potential answer:**
 
@@ -613,17 +601,23 @@ _Optimize_
 
     Different systems will have different requirements when it comes to application migration. While some systems might be fine with a weekend outage, others will require minimal downtime on the order of minutes or seconds. For those systems that require minimal downtime we can leverage tools such as the Azure Database Migration Service for near-zero downtime. 
 
-4.  When migrating workloads into Azure, how do we handle security and authentication? Will my workloads continue to use the same authentication that was used on-premises or will I need to maintain a separate identity platform?
+4.  When migrating workloads into Azure, how do we handle security and authentication? Will workloads continue to use the same authentication that was used on-premises? 
 
     **Potential answer:**
 
     Azure Active Directory is Microsoft's cloud based directory and identity management service. It provides directory services, application access management and identity protection. Azure AD also supports hybrid identity with your on-premises Active Directory allowing you to synchronize on-premises directory objects while still managing your users on-premises. Synchronized identities, and optionally password hashes, enable your users to use the same password to access both on-premises and cloud-based organizational resources. For more advanced scenario requirements, such as single-sign-on (SSO) or on-premises multi-factor authentication (MFA), you need to deploy Active Directory Federation Services (AD FS) to federate identities.
 
-5.  Some of our data has very strict regulatory constraints and cannot leave the country of origin, how do we handle this type of data in Azure? Will my data be replicated or located in another country?
+5.  Some of our data has very strict regulatory constraints and cannot leave the country of origin, how do we handle this type of data in Azure? Will data be replicated or located in other countries or regions? 
 
     **Potential answer:**
 
     Azure has datacenters all over the world. Your data will reside in the region in which you create your resources. Any platform-provided replication, such as storage account replication, will be to the paired region which is usually in the same geography. There are exceptions to this rule though, you can see a table of all the Azure paired regions here: https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions 
+    
+6.  How will migrating from SQL Server to Azure SQL Database impact the role of our database administration team?
+
+    **Potential answer:**
+    
+    
 
 ## Customer quote (to be read back to the attendees at the end)
 
