@@ -47,6 +47,7 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 ## Abstract and learning objectives
 
 Many customers have huge on-premises footprints of Windows and SQL Server 2008 and 2008 R2, but these products are rapidly approaching End of Support.
+
 This whiteboard design session will look at the process of migrating workloads to Azure. You will leave with the information needed to develop a solid migration plan to keep mission-critical apps and data protected as your customers transition and modernize their application, data, and infrastructure environment. Topics will include how to get an inventory of 2008 server environments, how to categorize 2008 workloads and evaluate the best option for each category, migration and upgrade tools available, TCO analysis tools, offers available from Microsoft to leverage existing licenses and innovations in recent product updates, licensing, and technologies.
 
 ## Step 1: Review the customer case study 
