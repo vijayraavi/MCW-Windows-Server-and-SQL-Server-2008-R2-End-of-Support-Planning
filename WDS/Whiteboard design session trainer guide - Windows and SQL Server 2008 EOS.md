@@ -44,10 +44,10 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
     - [Wrap-up](#wrap-up)
     - [Additional references](#additional-references)
 - [Windows Server and SQL Server 2008/2008 R2 End of Support Planning whiteboard design session trainer guide](#windows-server-and-sql-server-20082008-r2-end-of-support-planning-whiteboard-design-session-trainer-guide)
-    - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study-1)
-    - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution-1)
-    - [Step 3: Present the solution](#step-3-present-the-solution-1)
-    - [Wrap-up](#wrap-up-1)
+    - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
+    - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution)
+    - [Step 3: Present the solution](#step-3-present-the-solution)
+    - [Wrap-up](#wrap-up)
     - [Preferred target audience](#preferred-target-audience)
     - [Preferred solution](#preferred-solution)
     - [Checklist of preferred objection handling](#checklist-of-preferred-objection-handling)
@@ -196,13 +196,6 @@ Fabrikam is preparing for Windows and SQL Server 2008/R2 end of support and woul
 
 Fabrikam currently has many legacy applications that are running on Windows Server 2008 including a line of business inventory management system that also leverages SQL Server 2008. The inventory management system is considered a mission critical application. It is highly complex and is leveraged by various parts of the business with many upstream and downstream dependencies. Some of these dependencies are Linux systems. Because many of these systems are critical to the business they need to understand the business continuity and disaster recovery options when upgrading in place or migrating to the cloud.
 
-
-**Current Fabrikam architecture**
-
-![The Current Coho EDW architecture consists of an on-premises data warehouse that pulls data from a variety of on-premises data sources. A 3rd-party data processing company receives a dataset from Coho every day and supplements and aggregates the data with additional customer data. Updated sales data is periodically pulled from the warehouse but not on a consistent basis. Users receive static reports that are generated directly from the warehouse and analytics users query their own analytics database via Excel.](images/Whiteboarddesignsessionstudentguide-MigrateEDWtoAzureSQLDataWarehouseimages/media/image2.png)
-
-
-
 ### Customer needs 
 
 1.  Identify migration and upgrade tools to help in assessing, migrating and optimizing the current environment.
@@ -348,10 +341,14 @@ Time frame: 15 minutes
 |    |            |
 |----------|:-------------:|
 | **Description** | **Links** |
-| Azure Migrate  | <https://docs.microsoft.com/en-us/azure/migrate/migrate-overview>   |
-| Azure Site Recovery | <https://docs.microsoft.com/en-us/azure/site-recovery/>    |
-| Azure Database Migration Service   | <https://docs.microsoft.com/en-us/azure/dms/dms-overview>      |
 | Azure Hybrid Benefit  | <https://azure.microsoft.com/en-us/pricing/hybrid-benefit/>  |
+| Azure Migrate  | <https://docs.microsoft.com/en-us/azure/migrate/migrate-overview>   |
+| Azure TCO Calculator  | https://azure.microsoft.com/en-us/pricing/tco/calculator/  |
+| Azure Site Recovery | <https://docs.microsoft.com/en-us/azure/site-recovery/>    |
+| Database Migration Guide   | <https://datamigration.microsoft.com/>      |
+| Azure Database Migration Service   | <https://docs.microsoft.com/en-us/azure/dms/dms-overview>      |
+| Data Migration Assistant   | <https://docs.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-2017>      |
+| Database Experimentation Assistant   | https://blogs.msdn.microsoft.com/datamigration/2017/07/25/dea-2-1-general-availability-release-overview-database-experimentation-assistant/      |
 | Azure Cost Management   | <https://docs.microsoft.com/en-us/azure/cost-management/overview>   |
 
 
