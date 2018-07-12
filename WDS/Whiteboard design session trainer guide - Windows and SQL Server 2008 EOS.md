@@ -341,6 +341,7 @@ Time frame: 15 minutes
 |    |            |
 |----------|:-------------:|
 | **Description** | **Links** |
+| Azure Migration Center  | <https://azure.microsoft.com/en-us/migration/>  |
 | Azure Hybrid Benefit  | <https://azure.microsoft.com/en-us/pricing/hybrid-benefit/>  |
 | Azure Migrate  | <https://docs.microsoft.com/en-us/azure/migrate/migrate-overview>   |
 | Azure TCO Calculator  | https://azure.microsoft.com/en-us/pricing/tco/calculator/  |
