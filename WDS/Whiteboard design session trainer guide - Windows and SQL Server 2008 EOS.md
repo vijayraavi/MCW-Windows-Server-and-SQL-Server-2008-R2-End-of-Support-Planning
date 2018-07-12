@@ -543,9 +543,11 @@ _Migrate - Upgrade in place or migrate to Azure_
 
 _Optimize_
 
--  **Business Continuity and Disaster Recovery:** - With potentially hundreds of virtual machines deployed to Azure, how do we handle backup of virtual machines in Azure? How about SQL Database backups we have heard that backup retention is limited to 35 days but we need to keep backups for 7 years for compliance?
+-  **Business Continuity and Disaster Recovery:** - With potentially hundreds of virtual machines deployed to Azure, how do we handle backup of virtual machines in Azure? How about Azure SQL Database HADR? How are our SQL Databases protected? We have heard that backup retention is limited to 35 days but we need to keep backups for 7 years for compliance?
 
     **Answer:** Azure Backup can be used to backup your Azure virtual machines and your on-premises servers. It provides encrypted, application-consistent backups stored in geo-redundent storage. Azure Backup will store backups in a Recovery Services vault located in the same region as your virtual machines.
+
+    All SQL Databases a guaranteed 99.99% uptime for high availability. You may additionally deploy up to four asynchronous replicas into any region to support disaster recovery scenarios or scale out read workloads.
 
     All SQL Databases are automatically backed up. The automatic backup retention is 35 days for Standard and Premium tier databases. However, SQL Database can be configured for long term backup retention of up to 10 years. This works by copying the automated backup into an Azure Storage Account. The frequency of the copy is determined by a policy that you create.
 
@@ -594,13 +596,13 @@ _Optimize_
     - Azure Database Migration Service: Use the Azure Database Migration service to analyze existing on premises databases and migrate them to Azure SQL Database or Azure SQL Databases Managed Instances. 
 
 
-1.  We need to minimize the amount of downtime during migration. How will we do this? What kind of downtime are we looking at?
+3.  We need to minimize the amount of downtime during migration. How will we do this? What kind of downtime are we looking at?
 
     **Potential answer:**
 
     Different systems will have different requirements when it comes to application migration. While some systems might be fine with a weekend outage, others will require minimal downtime on the order of minutes or seconds. For those systems that require minimal downtime we can script most of the tasks and limit downtime to minutes, if not seconds. 
 
-1.  When migrating workloads into Azure, how do we handle security and authentication? Will my workloads continue to use the same authentication that was used on-premises or will I need to maintain a seperate identity platform?
+4.  When migrating workloads into Azure, how do we handle security and authentication? Will my workloads continue to use the same authentication that was used on-premises or will I need to maintain a seperate identity platform?
 
     **Potential answer:**
 
