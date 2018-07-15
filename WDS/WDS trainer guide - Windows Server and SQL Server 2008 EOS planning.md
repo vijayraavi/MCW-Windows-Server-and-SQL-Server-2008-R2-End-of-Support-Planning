@@ -617,7 +617,8 @@ _Optimize_
 
     **Potential answer:**
     
-    
+    Database Administrators still perform many of the tasks that are done on premises. For example, design and configuration for high availability and disaster recovery, storage management, performance tuning of critical workloads, responding to alerts, scripting and managing database environments. The nature of how these tasks are approached will change with many of the automation and intelligent features in Azure SQL Database, allowing database administrators to focus on higher value tasks and less on the menial day-to-day tasks.
+
 
 ## Customer quote (to be read back to the attendees at the end)
 
