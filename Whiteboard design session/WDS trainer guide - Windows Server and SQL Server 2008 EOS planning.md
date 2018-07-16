@@ -1,7 +1,7 @@
 ![Microsoft Cloud Workshop](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
 
 <div class="MCWHeader1">
-Windows Server and SQL Server 2008/R2 End of Support planning
+Windows Server and SQL Server 2008/R2 end of support planning
 </div>
 
 <div class="MCWHeader2">
@@ -32,7 +32,7 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
     - [Whiteboard design session flow](#whiteboard-design-session-flow)
     - [Before the whiteboard design session: How to prepare](#before-the-whiteboard-design-session-how-to-prepare)
     - [During the whiteboard design session: Tips for an effective whiteboard design session](#during-the-whiteboard-design-session-tips-for-an-effective-whiteboard-design-session)
-- [Windows Server 2008 and SQL Server 2008 End of Support planning whiteboard design session student guide](#windows-server-2008-and-sql-server-2008-end-of-support-planning-whiteboard-design-session-student-guide)
+- [Windows Server 2008 and SQL Server 2008 end of support planning whiteboard design session student guide](#windows-server-2008-and-sql-server-2008-end-of-support-planning-whiteboard-design-session-student-guide)
     - [Abstract and learning objectives](#abstract-and-learning-objectives)
     - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
         - [Customer situation](#customer-situation)
@@ -43,7 +43,7 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
     - [Step 3: Present the solution](#step-3-present-the-solution)
     - [Wrap-up](#wrap-up)
     - [Additional references](#additional-references)
-- [Windows Server and SQL Server 2008/2008 R2 End of Support planning whiteboard design session trainer guide](#windows-server-and-sql-server-20082008-r2-end-of-support-planning-whiteboard-design-session-trainer-guide)
+- [Windows Server and SQL Server 2008/2008 R2 end of support planning whiteboard design session trainer guide](#windows-server-and-sql-server-20082008-r2-end-of-support-planning-whiteboard-design-session-trainer-guide)
     - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
     - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution)
     - [Step 3: Present the solution](#step-3-present-the-solution)
@@ -161,7 +161,7 @@ When participants are doing activities, you can **look ahead to refresh your mem
 
 **Wait for responses**. If you ask a question such as, "What's your experience with (fill in the blank)?" then wait. Do not be afraid of a little silence. If you leap into the silence, your participants will feel you are not serious about involving them and will become passive. Give participants a chance to think, and if no one answers, patiently ask again. You will usually get a response.
 
-# Windows Server 2008 and SQL Server 2008 End of Support planning whiteboard design session student guide
+# Windows Server 2008 and SQL Server 2008 end of support planning whiteboard design session student guide
 
 ## Abstract and learning objectives
 
@@ -186,7 +186,7 @@ Directions: With all participants in the session, the facilitator/SME presents a
 
 Fabrikam is an automotive parts manufacturer based in the United States. They are an OEM manufacturer of parts for commercial vehicles. They have manufacturing plants throughout the US and Mexico. Fabrikam competes globally with other manufacturers for contracts, this highly competitive environment makes Fabrikam very price sensitive. 
 
-"We are preparing for Windows and SQL Server 2008/R2 end of support and would like to better understand our options for upgrade and migration.", Sloane Peterson, Fabrikam CIO
+"We are preparing for Windows and SQL Server 2008/R2 end of support and would like to better understand our options for upgrade and migration." Sloane Peterson, Fabrikam CIO.
 
 Fabrikam does not have a complete company wide inventory of the number of servers and applications running on legacy software and many of the systems are undocumented and not well understood by IT staff. They want to understand their current workloads and they would like to take advantage of the cloud where appropriate.  
 
@@ -198,7 +198,7 @@ They would like a short term plan to maintain support of the system while the ap
 
 They would also like a long term plan to take advantage of the new advancements in SQL Server while still getting the most out of their Azure investment by minimizing the administrative overhead.
 
-"We would love to take advantage of the cloud to minimize the administrative overhead of the Inventory Management System, we simply cannot get all of the dependencies sorted out before the official end of support." Frances Bradley, Manager Inventory Applications
+"We would love to take advantage of the cloud to minimize the administrative overhead of the Inventory Management System, we simply cannot get all of the dependencies sorted out before the official end of support." Frances Bradley, Manager Inventory Applications.
 
 ### Customer needs 
 
@@ -304,9 +304,9 @@ _Optimize_
 
 Directions: With all participants at your table: 
 
-1.  Identify any customer needs that are not addressed with the proposed solution. 
-2.  Identify the benefits of your solution. 
-3.  Determine how you will respond to the customer’s objections. 
+1.  Identify any customer needs that are not addressed with the proposed solution 
+2.  Identify the benefits of your solution 
+3.  Determine how you will respond to the customer’s objections.
 
 Prepare a 15-minute chalk-talk style presentation to the customer. 
 
@@ -352,7 +352,7 @@ Directions: Tables reconvene with the larger group to hear the facilitator/SME s
 | Azure Cost Management   | <https://docs.microsoft.com/en-us/azure/cost-management/overview>   |
 
 
-# Windows Server and SQL Server 2008/2008 R2 End of Support planning whiteboard design session trainer guide
+# Windows Server and SQL Server 2008/2008 R2 end of support planning whiteboard design session trainer guide
 
 ## Step 1: Review the customer case study
 
@@ -445,15 +445,15 @@ _Asses - Plan for end of support_
 
 - **Cost/Benefit Analysis:** Fabrikam currently has Software Assurance. Provide a high-level cost/benefit analysis of the following options available to Fabrikam:
 
-    a.  Maintain current version
+    - Maintain current version
 
-    b.  Rehost - Migrate to cloud
+    - Rehost - Migrate to cloud
 
     **Answer:** Fabrikam has several options they can take advantage of depending on the strategy they choose for each application workload. 
 
-    a. If they are not in a position to upgrade a given system immediately, they can purchase Extended Security Updates. Extended Security Updates allows you to purchase up to 3 years of additional security updates for Windows Server and SQL Server 2008 and 2008 R2.  
+    - If they are not in a position to upgrade a given system immediately, they can purchase Extended Security Updates. Extended Security Updates allows you to purchase up to 3 years of additional security updates for Windows Server and SQL Server 2008 and 2008 R2.  
 
-    b. Rehosting to Azure give you the flexibility and scalability of the cloud. Fabrikam can take advantage of Azure Hybrid Benefits for Windows and SQL when migrating to Azure. Additionally, migrating your virtual machines to Azure virtual machines will get you 3 more years of Extended Security Updates for Windows Server and SQL Server 2008/R2 at no additional charge.
+    - Rehosting to Azure give you the flexibility and scalability of the cloud. Fabrikam can take advantage of Azure Hybrid Benefits for Windows and SQL when migrating to Azure. Additionally, migrating your virtual machines to Azure virtual machines will get you 3 more years of Extended Security Updates for Windows Server and SQL Server 2008/R2 at no additional charge.
 
     For Windows Server, Azure Hybrid Benefit saves Fabrikam the OS costs when migrating to an Azure Virtual Machine and an additional 3 years of Extended Security Updates. 
 
@@ -476,7 +476,7 @@ _Migrate - Upgrade in place or migrate to Azure_
 
     **Answer:** There are four cloud migration strategies, rehost, refactor, rearchitect and rebiuld.
 
-    1. **Rehost**: This strategy is often referred to as "lift and shift" migration, this no-code option lets you migrate your existing applications to Azure quickly. Each application is migrated as-is, which provides the benefits of the cloud without the risks or costs of making code changes.
+    - **Rehost**: This strategy is often referred to as "lift and shift" migration, this no-code option lets you migrate your existing applications to Azure quickly. Each application is migrated as-is, which provides the benefits of the cloud without the risks or costs of making code changes.
 
         - Use cases:
             - You need to move applications from your datacenter to the cloud quickly
@@ -485,7 +485,7 @@ _Migrate - Upgrade in place or migrate to Azure_
             - Your applications or database requirements can only be met using an Azure IaaS VM
             - You need to move the application with no code changes
 
-    2. **Refactor**: Refactoring, often referred to as "repackaging," is a cloud migration approach that lets you minimally alter application code or apply configuration changes necessary to connect the application to Azure PaaS and take better advantage of the cloud. For example, you can move your existing apps to Azure App Service or Azure Kubernetes Service (AKS). You can also refactor your relational and non-relational databases into Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB
+    - **Refactor**: Refactoring, often referred to as "repackaging," is a cloud migration approach that lets you minimally alter application code or apply configuration changes necessary to connect the application to Azure PaaS and take better advantage of the cloud. For example, you can move your existing apps to Azure App Service or Azure Kubernetes Service (AKS). You can also refactor your relational and non-relational databases into Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB
 
         - Use cases:
             - You need to use an existing code base and development skills, and code portability is a concern
@@ -493,7 +493,7 @@ _Migrate - Upgrade in place or migrate to Azure_
             - You want to apply innovative DevOps practices provided by Azure
             - Your IT team is investing in DevOps using a container strategy for certain workloads
 
-    3. **Rearchitect**: Modify or extend an existing application's code base to optimize the application architecture for cloud scale. For example, decompose a monolithic application into microservices that work together and readily scale. And rearchitect your relational and non-relational databases to Azure fully-managed DBaaS solutions, like Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB.
+    - **Rearchitect**: Modify or extend an existing application's code base to optimize the application architecture for cloud scale. For example, decompose a monolithic application into microservices that work together and readily scale. And rearchitect your relational and non-relational databases to Azure fully-managed DBaaS solutions, like Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB.
 
         - Use cases:
             - Your application needs a major revision to incorporate new capabilities or to work more effectively on a cloud platform
@@ -502,7 +502,7 @@ _Migrate - Upgrade in place or migrate to Azure_
             - You want to minimize use of virtual machines
             - You want to apply innovative DevOps practices provided by Azure
 
-    4. **Rebuild**: Rebuild an application from scratch using cloud-native technologies from Azure. For example, build greenfield applications with cloud-native technologies like serverless, Azure AI, Azure SQL Database Managed Instance, Azure Cosmos DB, and others
+    - **Rebuild**: Rebuild an application from scratch using cloud-native technologies from Azure. For example, build greenfield applications with cloud-native technologies like serverless, Azure AI, Azure SQL Database Managed Instance, Azure Cosmos DB, and others
 
         - Use cases:
             - You want rapid development, and the existing application is limiting in terms of functionality and lifespan.
@@ -523,14 +523,14 @@ _Migrate - Upgrade in place or migrate to Azure_
 
 -  **SQL Server Upgrades and Migrations**: Migration steps:
 
-    a.  How SQL Servers that will be migrated to Azure virtual machines be migrated?
+    - How SQL Servers that will be migrated to Azure virtual machines be migrated?
 
-    b.  How SQL databases that will be migrated to Azure SQL Database and Azure SQL Database Managed Instances be migrated?
+    - How SQL databases that will be migrated to Azure SQL Database and Azure SQL Database Managed Instances be migrated?
 
     **Answer:** 
     All migrations from on-premises databases to Azure should take advantage of the Azure Database Migration Service. This will allow you to assess compatibility prior to the actual migration and in some cases will allow you to orchestrate the migration directly from the Database Migration Service. You should consult the Database Migration Guide for details of various database source and target combinations.
     
-    a.  SQL Server instances that will be migrated to Azure virtual machines have numerous options for migration depending on the edition of SQL Server and the application requirements. 
+    - SQL Server instances that will be migrated to Azure virtual machines have numerous options for migration depending on the edition of SQL Server and the application requirements. 
     - Use the Data Migration Assistant (DMA) to migrate the schema and data into an Azure VM
     - Perform an on-premises backup using compression, and then manually copy the backup file into an Azure VM
     - Perform a backup to URL, and then restore into an Azure VM from the URL
@@ -543,7 +543,7 @@ _Migrate - Upgrade in place or migrate to Azure_
 
     To minimize downtime of your migration you should use either Always On Availability Groups or Transactional Replication. Keep in mind that neither of these options will migrate objects such as user logins and SQL Agent jobs which may need to be scripted and applied to the destination instance of SQL Server. 
 
-    b.  Individual SQL databases that will by migrated to Azure SQL Database or Azure SQL Database Managed Instances should be migrated using the Azure Database Migration Service. This will allow you to assess compatibility prior to the actual migration. Note that the Azure Database Migration Service does not currently support data sync with minimal downtime cutover. 
+    - Individual SQL databases that will by migrated to Azure SQL Database or Azure SQL Database Managed Instances should be migrated using the Azure Database Migration Service. This will allow you to assess compatibility prior to the actual migration. Note that the Azure Database Migration Service does not currently support data sync with minimal downtime cutover. 
 
 _Optimize_
 
