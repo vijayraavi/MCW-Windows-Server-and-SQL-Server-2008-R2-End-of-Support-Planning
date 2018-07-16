@@ -1,7 +1,7 @@
 ![Microsoft Cloud Workshop](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
 
 <div class="MCWHeader1">
-Windows Server and SQL Server 2008/R2 End of Support planning
+Windows Server and SQL Server 2008/R2 end of support planning
 </div>
 
 <div class="MCWHeader2">
@@ -27,7 +27,7 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 
 <!-- TOC -->
 
-- [Windows Server 2008 and SQL Server 2008 End of Support planning whiteboard design session student guide](#windows-server-2008-and-sql-server-2008-end-of-support-planning-whiteboard-design-session-student-guide)
+- [Windows Server 2008 and SQL Server 2008 end of support planning whiteboard design session student guide](#windows-server-2008-and-sql-server-2008-end-of-support-planning-whiteboard-design-session-student-guide)
     - [Abstract and learning objectives](#abstract-and-learning-objectives)
     - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
         - [Customer situation](#customer-situation)
@@ -42,7 +42,7 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 <!-- /TOC -->
 
 
-# Windows Server 2008 and SQL Server 2008 End of Support planning whiteboard design session student guide
+# Windows Server 2008 and SQL Server 2008 end of support planning whiteboard design session student guide
 
 ## Abstract and learning objectives
 
@@ -62,7 +62,6 @@ Directions: With all participants in the session, the facilitator/SME presents a
 1.  Meet your table participants and trainer 
 2.  Read all of the directions for steps 1–3 in the student guide 
 3.  As a table team, review the following customer case study
-
 
 ### Customer situation
 
@@ -186,12 +185,11 @@ _Optimize_
 
 Directions: With all participants at your table: 
 
-1.  Identify any customer needs that are not addressed with the proposed solution. 
-2.  Identify the benefits of your solution. 
-3.  Determine how you will respond to the customer’s objections. 
+1.  Identify any customer needs that are not addressed with the proposed solution
+2.  Identify the benefits of your solution
+3.  Determine how you will respond to the customer’s objections
 
 Prepare a 15-minute chalk-talk style presentation to the customer. 
-
 
 ## Step 3: Present the solution
 
