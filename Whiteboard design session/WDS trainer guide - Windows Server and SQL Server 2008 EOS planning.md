@@ -531,15 +531,15 @@ _Migrate - Upgrade in place or migrate to Azure_
     All migrations from on-premises databases to Azure should take advantage of the Azure Database Migration Service. This will allow you to assess compatibility prior to the actual migration and in some cases will allow you to orchestrate the migration directly from the Database Migration Service. You should consult the Database Migration Guide for details of various database source and target combinations.
     
     - SQL Server instances that will be migrated to Azure virtual machines have numerous options for migration depending on the edition of SQL Server and the application requirements. 
-    - Use the Data Migration Assistant (DMA) to migrate the schema and data into an Azure VM
-    - Perform an on-premises backup using compression, and then manually copy the backup file into an Azure VM
-    - Perform a backup to URL, and then restore into an Azure VM from the URL
-    - Detach and copy the data and log files to Azure Blob storage, and then attach to an Azure VM from the URL
-    - Convert an on-premises VW to Hyper-V VHDs, upload to Azure Blob storage, and then deploy a new Azure VM using the uploaded VHD
-    - Use Azure Site Recovery to replicate the entire virtual machine to Azure
-    - Ship a hard drive using Windows Import/Export Service
-    - Use the Add Azure Replica Wizard. This option uses Always On Availability Groups to replicate your data to a replica hosted in Azure
-    - Use SQL Server transactional replication
+        - Use the Data Migration Assistant (DMA) to migrate the schema and data into an Azure VM
+        - Perform an on-premises backup using compression, and then manually copy the backup file into an Azure VM
+        - Perform a backup to URL, and then restore into an Azure VM from the URL
+        - Detach and copy the data and log files to Azure Blob storage, and then attach to an Azure VM from the URL
+        - Convert an on-premises VW to Hyper-V VHDs, upload to Azure Blob storage, and then deploy a new Azure VM using the uploaded VHD
+        - Use Azure Site Recovery to replicate the entire virtual machine to Azure
+        - Ship a hard drive using Windows Import/Export Service
+        - Use the Add Azure Replica Wizard. This option uses Always On Availability Groups to replicate your data to a replica hosted in Azure
+        - Use SQL Server transactional replication
 
     To minimize downtime of your migration you should use either Always On Availability Groups or Transactional Replication. Keep in mind that neither of these options will migrate objects such as user logins and SQL Agent jobs which may need to be scripted and applied to the destination instance of SQL Server. 
 
