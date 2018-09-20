@@ -354,7 +354,7 @@ Directions: Tables reconvene with the larger group to hear the facilitator/SME s
 | Database Migration Guide   | <https://datamigration.microsoft.com/>      |
 | Azure Database Migration Service   | <https://docs.microsoft.com/en-us/azure/dms/dms-overview>      |
 | Data Migration Assistant   | <https://docs.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-2017>      |
-| Database Experimentation Assistant   | https://blogs.msdn.microsoft.com/datamigration/2017/07/25/dea-2-1-general-availability-release-overview-database-experimentation-assistant/      |
+| Database Experimentation Assistant   | https://blogs.msdn.microsoft.com/datamigration/2018/08/06/release-database-experimentation-assistant-dea-v2-6/      |
 | Azure Cost Management   | <https://docs.microsoft.com/en-us/azure/cost-management/overview>   |
 
 
