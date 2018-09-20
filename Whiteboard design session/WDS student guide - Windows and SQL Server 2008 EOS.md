@@ -153,8 +153,9 @@ _Asses - Plan for end of support_
 
 - **Cost Analysis:** Fabrikam currently has Software Assurance. Provide a cost analysis of the following options available to Fabrikam:
 
-    a.  Maintain current version
-    b.  Rehost - Migrate to cloud
+    a. Maintain current version
+
+    b. Rehost - Migrate to cloud
 
 _Migrate - Upgrade in place or migrate to Azure_
 
@@ -162,14 +163,17 @@ _Migrate - Upgrade in place or migrate to Azure_
 
 -  **Windows Server Upgrades and Migrations**: Detailed migration steps:
 
-    a.  How will physical machines be migrated to Azure?
-    b.  How will machines hosted in VMWare be migrated to Azure?
+    a. How will physical machines be migrated to Azure?
+
+    b. How will machines hosted in VMWare be migrated to Azure?
+
     c. Some IIS based web sites will be migrated to Azure Web Apps. Document the requirements and the process for migrating to Azure Web Apps. 
 
 -  **SQL Server Upgrades and Migrations**: Provide Fabrikam with detailed migration steps. At a minimum, your steps should cover the following scenarios:
 
-    a.  How SQL Servers that will be migrated to Azure virtual machines be migrated?
-    b.  How SQL databases that will be migrated to Azure SQL Database and Azure SQL Database Managed Instances be migrated? 
+    a. How SQL Servers that will be migrated to Azure virtual machines be migrated?
+
+    b. How SQL databases that will be migrated to Azure SQL Database and Azure SQL Database Managed Instances be migrated? 
 
 -  **Diagram the solution**
 
@@ -230,5 +234,5 @@ Directions: Tables reconvene with the larger group to hear the facilitator/SME s
 | Database Migration Guide   | <https://datamigration.microsoft.com/>      |
 | Azure Database Migration Service   | <https://docs.microsoft.com/en-us/azure/dms/dms-overview>      |
 | Data Migration Assistant   | <https://docs.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-2017>      |
-| Database Experimentation Assistant   | https://blogs.msdn.microsoft.com/datamigration/2017/07/25/dea-2-1-general-availability-release-overview-database-experimentation-assistant/      |
+| Database Experimentation Assistant   | https://blogs.msdn.microsoft.com/datamigration/2018/08/06/release-database-experimentation-assistant-dea-v2-6/      |
 | Azure Cost Management   | <https://docs.microsoft.com/en-us/azure/cost-management/overview>   |
