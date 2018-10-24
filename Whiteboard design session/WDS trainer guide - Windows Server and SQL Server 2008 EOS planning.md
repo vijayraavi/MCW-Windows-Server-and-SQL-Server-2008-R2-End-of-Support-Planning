@@ -431,7 +431,8 @@ Directions: Tables reconvene with the larger group to hear the facilitator/SME s
 
 The solution for Fabrikam's scenario follows the process:
 
-1.  Assess - In this phase you will use automated migration tools to provide insight into your environment. It can be broken into the three steps
+1.  Assess - In this phase you will use automated migration tools to provide insight into your environment. It can be broken into the three steps:
+
     - Discovery: In the discovery phase you will collect information about your various workloads. At the end of this phase you should have an inventory of all of your servers.
     - Mapping: Identify dependencies between servers. Group servers logically to represent applications.
     - Evaluate: Evaluate groups for compatibility and cost. Select a migration strategy based on application requirements and migration objectives.
@@ -452,21 +453,21 @@ _Asses - Plan for end of support_
 
     **Answer:** There are several critical tools available to Fabrikam to assist with environment assessment. There are also multiple facets to assessing an environment.
 
-    - Azure Migrate: Use Azure Migrate to assess known windows instances. Currently, the Azure Migrate service only supports discovery of machines hosted in VMWare, physical and Hyper-V hosted machines are coming soon. 
+    - **Azure Migrate**: Use Azure Migrate to assess known windows instances. Currently, the Azure Migrate service only supports discovery of machines hosted in VMWare, physical and Hyper-V hosted machines are coming soon. 
 
-    - Microsoft Assessment and Planning Toolkit: The MAP Toolkit provides agentless discovery and inventory of computers and applications, hardware and software migration readiness assessments, software usage tracking, and capacity planning for virtualization, public and private cloud migration.
+    - **Microsoft Assessment and Planning Toolkit**: The MAP Toolkit provides agentless discovery and inventory of computers and applications, hardware and software migration readiness assessments, software usage tracking, and capacity planning for virtualization, public and private cloud migration.
 
-    - Database Migration Guide: The Database Migration Guide creates a custom report on how to migrate your source data to the destination of your choice: on-premises, cloud, private cloud, IaaS or PaaS.
+    - **Database Migration Guide**: The Database Migration Guide creates a custom report on how to migrate your source data to the destination of your choice: on-premises, cloud, private cloud, IaaS or PaaS.
 
-    - Azure Database Migration Service: Use the Azure Database Migration service to analyze existing on premises databases and migrate them to Azure SQL Database or Azure SQL Databases Managed Instances. 
+    - **Azure Database Migration Service**: Use the Azure Database Migration service to analyze existing on premises databases and migrate them to Azure SQL Database or Azure SQL Databases Managed Instances. 
 
-    - Data Migration Assistant: Data Migration Assistant (DMA) enables you to upgrade to a modern data platform by detecting compatibility issues that can impact database functionality on your new version of SQL Server. It recommends performance and reliability improvements for your target environment. It allows you to not only move your schema and data, but also uncontained objects from your source server to your target server.
+    - **Data Migration Assistant**: Data Migration Assistant (DMA) enables you to upgrade to a modern data platform by detecting compatibility issues that can impact database functionality on your new version of SQL Server. It recommends performance and reliability improvements for your target environment. It allows you to not only move your schema and data, but also uncontained objects from your source server to your target server.
 
-    - Database Experimentation Assistant: Database Experimentation Assistant (DEA) is an A/B testing solution for SQL Server upgrades. It will assist in evaluating a targeted version of SQL Server for a given workload. Customers who are upgrading from previous SQL Server versions (SQL Server 2005 and above) to any new version of the SQL Server will be able to use these analysis metrics.
+    - **Database Experimentation Assistant**: Database Experimentation Assistant (DEA) is an A/B testing solution for SQL Server upgrades. It will assist in evaluating a targeted version of SQL Server for a given workload. Customers who are upgrading from previous SQL Server versions (SQL Server 2005 and above) to any new version of the SQL Server will be able to use these analysis metrics.
 
-    - Migration Partners: There are a variety of migration partners to assist with migration. Managed Service Providers can help you drive migration initiatives and manage your resources once they're in Azure. Systems integrators can help you drive migration initiatives by providing project management and technical consulting. A complete list of partners can be found at the Azure Migration Center web page: https://azure.microsoft.com/migration. 
+    - **Migration Partners**: There are a variety of migration partners to assist with migration. Managed Service Providers can help you drive migration initiatives and manage your resources once they're in Azure. Systems integrators can help you drive migration initiatives by providing project management and technical consulting. A complete list of partners can be found at the Azure Migration Center web page: https://azure.microsoft.com/migration. 
 
-        ![Find a complete list of migration partners on the Azure Migration Center web page](images/2018-07-12-08-54-25.png)
+        ![This screenshot shows a few organizations offering ready-to-use partner technology solutions. Find a complete list of migration partners on the Azure Migration Center web page.](images/2018-07-12-08-54-25.png)
 
 - **Cost/Benefit Analysis:** Fabrikam currently has Software Assurance. Provide a high-level cost/benefit analysis of the following options available to Fabrikam:
 
@@ -510,7 +511,7 @@ _Migrate - Upgrade in place or migrate to Azure_
             - Your applications or database requirements can only be met using an Azure IaaS VM.
             - You need to move the application with no code changes.
 
-    - **Refactor**: Refactoring, often referred to as "repackaging," is a cloud migration approach that lets you minimally alter application code or apply configuration changes necessary to connect the application to Azure PaaS and take better advantage of the cloud. For example, you can move your existing apps to Azure App Service or Azure Kubernetes Service (AKS). You can also refactor your relational and non-relational databases into Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB
+    - **Refactor**: Refactoring, often referred to as "repackaging," is a cloud migration approach that lets you minimally alter application code or apply configuration changes necessary to connect the application to Azure PaaS and take better advantage of the cloud. For example, you can move your existing apps to Azure App Service or Azure Kubernetes Service (AKS). You can also refactor your relational and non-relational databases into Azure SQL Database Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Cosmos DB.
 
         - Use cases:
             - You need to use an existing code base and development skills, and code portability is a concern.
@@ -527,7 +528,7 @@ _Migrate - Upgrade in place or migrate to Azure_
             - You want to minimize use of virtual machines.
             - You want to apply innovative DevOps practices provided by Azure.
 
-    - **Rebuild**: Rebuild an application from scratch using cloud-native technologies from Azure. For example, build greenfield applications with cloud-native technologies like serverless, Azure AI, Azure SQL Database Managed Instance, Azure Cosmos DB, and others
+    - **Rebuild**: Rebuild an application from scratch using cloud-native technologies from Azure. For example, build greenfield applications with cloud-native technologies like serverless, Azure AI, Azure SQL Database Managed Instance, Azure Cosmos DB, and others.
 
         - Use cases:
             - You want rapid development, and the existing application is limiting in terms of functionality and lifespan.
@@ -561,7 +562,7 @@ _Migrate - Upgrade in place or migrate to Azure_
         - Perform an on-premises backup using compression, and then manually copy the backup file into an Azure VM.        
         - Perform a backup to URL, and then restore into an Azure VM from the URL.
         - Detach and copy the data and log files to Azure Blob storage, and then attach to an Azure VM from the URL.
-        - Convert an on-premises VW to Hyper-V VHDs, upload to Azure Blob storage, and then deploy a new Azure VM using the uploaded VHD
+        - Convert an on-premises VW to Hyper-V VHDs, upload to Azure Blob storage, and then deploy a new Azure VM using the uploaded VHD.
         - Use Azure Site Recovery to replicate the entire virtual machine to Azure.
         - Ship a hard drive using Windows Import/Export Service.
         - Use the Add Azure Replica Wizard. This option uses Always On Availability Groups to replicate your data to a replica hosted in Azure.
@@ -573,7 +574,7 @@ _Migrate - Upgrade in place or migrate to Azure_
 
 _Optimize_
 
--  **Business Continuity and Disaster Recovery:** - With potentially hundreds of virtual machines deployed to Azure, how do we handle backup of virtual machines in Azure? How about Azure SQL Database HADR? How are our SQL Databases protected? We have heard that backup retention is limited to 35 days, but we need to keep backups for 7 years for compliance?
+-  **Business Continuity and Disaster Recovery:** With potentially hundreds of virtual machines deployed to Azure, how do we handle backup of virtual machines in Azure? How about Azure SQL Database HADR? How are our SQL Databases protected? We have heard that backup retention is limited to 35 days, but we need to keep backups for 7 years for compliance?
 
     **Answer:** Azure Backup can be used to backup your Azure virtual machines and your on-premises servers. It provides encrypted, application-consistent backups stored in geo-redundant storage. Azure Backup will store backups in a Recovery Services vault located in the same region as your virtual machines.
 
@@ -581,13 +582,13 @@ _Optimize_
 
     All SQL Databases are automatically backed up. The automatic backup retention is 35 days for Standard and Premium tier databases. However, SQL Database can be configured for long term backup retention of up to 10 years. This works by copying the automated backup into an Azure Storage Account. The frequency of the copy is determined by a policy that you create.
 
--  **Cost management:** - With the ease of deploying and scaling services in the cloud we are concerned about cost management. What tools can we leverage to help us with cost management?
+-  **Cost management:** With the ease of deploying and scaling services in the cloud we are concerned about cost management. What tools can we leverage to help us with cost management?
 
     **Answer:** Azure Resource Manager policies and role-based access control provide governance to your cloud environment. You can limit the type and scale of resources deployed to Azure. You can also enforce tagging policies, the resulting tags can then be used to track things like department, project name etc.
 
     To manage cost in the Azure environment you can leverage Azure Cost Management. Azure Cost Management allows you to track cloud usage and expenditures for your Azure resources and other cloud providers including AWS and Google. Azure Cost Management allows you to track all of your costs based on your tagging policy. It allows for alerts for notifying you automatically when unusual spending or overspending occurs. It also allows you to improve efficiency by identifying idle virtual machines or removing unattached disks.
 
--  **Compliance:** - We want to make sure that our cloud resources are properly secured so that we can maintain compliance. How do we monitor security and maintain compliance in the cloud? What about systems that remain on premises?
+-  **Compliance:** We want to make sure that our cloud resources are properly secured so that we can maintain compliance. How do we monitor security and maintain compliance in the cloud? What about systems that remain on premises?
 
     **Answer:** Azure Resource Manager policies and role-based access control provide governance to your cloud environment. With policies you can define the types of resources that can be deployed and the regions in which they can be deployed. You can also enforce naming conventions, tag resources and other governance related operations.
 
@@ -595,12 +596,12 @@ _Optimize_
     
     Azure Security Center provides:
     
-    -  Centralized policy management – Ensure compliance with company or regulatory security requirements by centrally managing security policies across all your hybrid cloud workloads.
-    -  Continuous security assessment – Monitor the security posture of machines, networks, storage and data services, and applications to discover potential security issues.
-    -  Actionable recommendations – Remediate security vulnerabilities before they can be exploited by attackers with prioritized and actionable security recommendations.
-    -  Prioritized alerts and incidents - Focus on the most critical threats first with prioritized security alerts and incidents.
-    -  Advanced cloud defenses – Reduce threats with just in time access to management ports and adaptive application controls running on your VMs.
-    -  Integrated security solutions - Collect, search, and analyze security data from a variety of sources, including connected partner solutions.
+    -  **Centralized policy management**:  Ensure compliance with company or regulatory security requirements by centrally managing security policies across all your hybrid cloud workloads.
+    -  **Continuous security assessment**:  Monitor the security posture of machines, networks, storage and data services, and applications to discover potential security issues.
+    -  **Actionable recommendations**:  Remediate security vulnerabilities before they can be exploited by attackers with prioritized and actionable security recommendations.
+    -  **Prioritized alerts and incidents**:  Focus on the most critical threats first with prioritized security alerts and incidents.
+    -  **Advanced cloud defenses**:  Reduce threats with just in time access to management ports and adaptive application controls running on your VMs.
+    -  **Integrated security solutions**:  Collect, search, and analyze security data from a variety of sources, including connected partner solutions.
 
 ## Checklist of preferred objection handling
 
@@ -617,9 +618,9 @@ _Optimize_
 
     Microsoft provides a variety of free migration tools to assist with migration planning and execution. In addition, if the tools provided do not meet a specific need, Microsoft has a rich ecosystem of partners that provide migration tools and consulting as well.
 
-    - Azure Migrate: Use Azure Migrate to assess known windows instances. Currently, the Azure Migrate service only supports discovery of machines hosted in VMWare, physical and Hyper-V hosted machines are coming soon. 
+    - **Azure Migrate**: Use Azure Migrate to assess known windows instances. Currently, the Azure Migrate service only supports discovery of machines hosted in VMWare, physical and Hyper-V hosted machines are coming soon. 
 
-    - Microsoft Assessment and Planning Toolkit: The MAP Toolkit provides agentless discovery and inventory of computers and applications, hardware and software migration readiness assessments, software usage tracking, and capacity planning for virtualization, public and private cloud migration.
+    - **Microsoft Assessment and Planning Toolkit**: The MAP Toolkit provides agentless discovery and inventory of computers and applications, hardware and software migration readiness assessments, software usage tracking, and capacity planning for virtualization, public and private cloud migration.
 
 
 3.  We need to minimize the amount of downtime during migration. How will we do this? What kind of downtime are we looking at?
