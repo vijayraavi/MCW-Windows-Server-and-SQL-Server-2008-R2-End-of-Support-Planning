@@ -148,7 +148,7 @@ Directions:  With all participants at your table, answer the following questions
 
 Directions: With all participants at your table, respond to the following questions on a flip chart:
 
-_Asses - Plan for end of support_
+_Assess - Plan for end of support_
 
 - **Inventory**: Fabrikam needs to build an inventory of their current systems. Determine what needs to be tracked in this inventory. What information would you track in your inventory to help Fabrikam organize and prioritize systems for their end of support planning? How would you prioritize systems?
 
