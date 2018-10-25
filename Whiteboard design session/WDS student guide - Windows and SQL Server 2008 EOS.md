@@ -106,7 +106,7 @@ They would also like a long-term plan to take advantage of the new advancements 
 
 4.  When migrating workloads into Azure, how do we handle security and authentication? Will my workloads continue to use the same authentication that was used on-premises?
 
-5.  Some of our data has very strict regulatory constraints and cannot leave the country of origin, how do we handle this type of data in Azure? Will data be replicated or located in other countries or regions? 
+5.  Some of our data has very strict regulatory constraints and cannot leave the country/region of origin, how do we handle this type of data in Azure? Will data be replicated or located in other countries or regions? 
 
 6.  How will migrating from SQL Server to Azure SQL Database impact the role of our database administration team?
 
