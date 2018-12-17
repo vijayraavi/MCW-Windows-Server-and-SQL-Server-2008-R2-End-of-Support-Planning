@@ -28,30 +28,30 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 <!-- TOC -->
 
 - [Trainer information](#trainer-information)
-    - [Role of the trainer](#role-of-the-trainer)
-    - [Whiteboard design session flow](#whiteboard-design-session-flow)
-    - [Before the whiteboard design session: How to prepare](#before-the-whiteboard-design-session-how-to-prepare)
-    - [During the whiteboard design session: Tips for an effective whiteboard design session](#during-the-whiteboard-design-session-tips-for-an-effective-whiteboard-design-session)
+  - [Role of the trainer](#role-of-the-trainer)
+  - [Whiteboard design session flow](#whiteboard-design-session-flow)
+  - [Before the whiteboard design session: How to prepare](#before-the-whiteboard-design-session-how-to-prepare)
+  - [During the whiteboard design session: Tips for an effective whiteboard design session](#during-the-whiteboard-design-session-tips-for-an-effective-whiteboard-design-session)
 - [Windows Server 2008 and SQL Server 2008 end of support planning whiteboard design session student guide](#windows-server-2008-and-sql-server-2008-end-of-support-planning-whiteboard-design-session-student-guide)
-    - [Abstract and learning objectives](#abstract-and-learning-objectives)
-    - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
-        - [Customer situation](#customer-situation)
-        - [Customer needs](#customer-needs)
-        - [Customer objections](#customer-objections)
-        - [Infographic for common scenarios](#infographic-for-common-scenarios)
-    - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution)
-    - [Step 3: Present the solution](#step-3-present-the-solution)
-    - [Wrap-up](#wrap-up)
-    - [Additional references](#additional-references)
+  - [Abstract and learning objectives](#abstract-and-learning-objectives)
+  - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
+    - [Customer situation](#customer-situation)
+    - [Customer needs](#customer-needs)
+    - [Customer objections](#customer-objections)
+    - [Infographic for common scenarios](#infographic-for-common-scenarios)
+  - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution)
+  - [Step 3: Present the solution](#step-3-present-the-solution)
+  - [Wrap-up](#wrap-up)
+  - [Additional references](#additional-references)
 - [Windows Server and SQL Server 2008/2008 R2 end of support planning whiteboard design session trainer guide](#windows-server-and-sql-server-20082008-r2-end-of-support-planning-whiteboard-design-session-trainer-guide)
-    - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study-1)
-    - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution-1)
-    - [Step 3: Present the solution](#step-3-present-the-solution-1)
-    - [Wrap-up](#wrap-up-1)
-    - [Preferred target audience](#preferred-target-audience)
-    - [Preferred solution](#preferred-solution)
-    - [Checklist of preferred objection handling](#checklist-of-preferred-objection-handling)
-    - [Customer quote (to be read back to the attendees at the end)](#customer-quote-to-be-read-back-to-the-attendees-at-the-end)
+  - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study-1)
+  - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution-1)
+  - [Step 3: Present the solution](#step-3-present-the-solution-1)
+  - [Wrap-up](#wrap-up-1)
+  - [Preferred target audience](#preferred-target-audience)
+  - [Preferred solution](#preferred-solution)
+  - [Checklist of preferred objection handling](#checklist-of-preferred-objection-handling)
+  - [Customer quote (to be read back to the attendees at the end)](#customer-quote-to-be-read-back-to-the-attendees-at-the-end)
 
 <!-- /TOC -->
 
@@ -199,7 +199,7 @@ Fabrikam is an automotive parts manufacturer based in the United States. They ar
 
 "We are preparing for Windows and SQL Server 2008/R2 end of support and would like to better understand our options for upgrade and migration." Sloane Peterson, Fabrikam CIO
 
-Fabrikam does not have a complete companywide inventory of the number of servers and applications running on legacy software and many of the systems are undocumented and not well understood by IT staff. They want to understand their current workloads and they would like to take advantage of the cloud where appropriate.
+Fabrikam does not have a complete company-wide inventory of the number of servers and applications running on legacy software and many of the systems are undocumented and not well understood by IT staff. They want to understand their current workloads and they would like to take advantage of the cloud where appropriate.
 
 Fabrikam currently has many legacy applications that are running on Windows Server 2008 including a line of business inventory management system that also leverages SQL Server 2008. The inventory management system is considered a mission critical application. It is highly complex and is leveraged by various parts of the business with many upstream and downstream dependencies. Some of these dependencies are Linux systems. Because many of these systems are critical to the business, they need to understand the business continuity and disaster recovery options when upgrading in place or migrating to the cloud.
 
@@ -221,6 +221,8 @@ They would also like a long-term plan to take advantage of the new advancements 
 4.  They would like to modernize applications and take advantage of the cloud where it makes sense. How should they go about identifying suitable applications and the costs of running them in Azure?
 
 5.  Applications that are not moving to Azure will need to be optimized on-premises.
+
+6.  As part of the anaysis, Fabrikam would like to beter understand how to analyze cose of a solution that is slated to be migrated to Azure. They have chosen an application solution that represents a fairly common pattern in their enviornment and would like you to provide total cost of ownership analysis of this solution in Azure. 
 
 ### Customer objections 
 
@@ -285,6 +287,51 @@ _Assess - Plan for end of support_
     a. Maintain current version
 
     b. Rehost - Migrate to cloud
+
+    Additionaly, provide a one year total cost of ownership analysis for migrating the follwing example solution to Azure. The details below represent a common pattern seen in Fabrikam's environment. Provide analysis for migrating this solution from Fabrikam's Michigan datacenter to the North Central US region of Azure. You can use state averages for utility rates, you may accept the defaults for information that is not provided below.
+
+    |    |            |            |
+    |----------|-------------|-------------|
+    | Web Farm |  |
+    |  | Workload: | Windows Server |
+    |  | Environment: | Virtual |
+    |  | Operating System: | Windows Server 2008 R2 |
+    |  | VMs: | 4 |
+    |  | Virtualization: | VMWare |
+    |  | Cores (per VM): | 4 |
+    |  | RAM (GB): | 16 |
+    |  | Optimize by: | CPU |
+    | Process Server |  |
+    |  | Workload: | Windows Server |
+    |  | Environment: | Virtual |
+    |  | Operating System: | Windows Server 2008 R2 |
+    |  | VMs: | 1 |
+    |  | Virtualization: | VMWare |
+    |  | Cores (per VM): | 4 |
+    |  | RAM (GB): | 16 |
+    |  | Optimize by: | CPU |
+    | Database Server |  |
+    |  | *Source server specs* |  |
+    |  | Database: | Microsoft SQL Server |
+    |  | License: | Enterprise |
+    |  | Environment: | Physical server |
+    |  | Operating System: | Windows Server 2008 R2 |
+    |  | Servers: | 1 |
+    |  | Procs per server: | 2 |
+    |  | Cores (per proc): | 8 |
+    |  | RAM (GB): | 128 |
+    |  | Optimize by: | CPU |
+    |  | *Destination server* |  |
+    |  | Service: | SQL Database Managed Instance |
+    |  | Managed instance tier: | General purpose |
+    |  | Managed instance cores: | 2 |
+    |  | SQL Server storage: | 500 GB |
+    |  | SQL Server backup: | 1 TB |
+    | Adjust assumptions |  |
+    |  | Azure Hybrid Benefit: | On |
+    |  | Software Assurance coverage: | On |
+    |  | Geo-redundant storage: | Off |
+    |  | Virtual Machine costs: | On |
 
 _Migrate - Upgrade in place or migrate to Azure_
 
@@ -492,9 +539,9 @@ _Assess - Plan for end of support_
 
     For those that cannot migrate to Azure there is also an option to purchase Extended Security Updates. 
 
-    To estimate cost savings, Fabrikam should use the Azure TCO Calculator.
+    To estimate cost savings, Fabrikam should use the Azure TCO Calculator. The below example uses the information provided, the current Michigan average electricity rates and migration to the North Central US Azure region. Your results may be different as Azure pricing and electricty rates change.
 
-    ![Graphic of the Azure TCO Calculator showing an example of the potential cost savings from an Azure migration.](images/2018-07-12-08-58-34.png)
+    ![Graphic of the Azure TCO Calculator showing an example of the potential cost savings from an Azure migration.](images/2018-12-17_10-27-45.png)
 
 _Migrate - Upgrade in place or migrate to Azure_
 
