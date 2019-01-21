@@ -288,9 +288,11 @@ Directions: Tables reconvene with the larger group to hear the facilitator/SME s
 | Azure Migration Center  | <https://azure.microsoft.com/en-us/migration/>  |
 | Azure Hybrid Benefit  | <https://azure.microsoft.com/en-us/pricing/hybrid-benefit/>  |
 | Azure Migrate  | <https://docs.microsoft.com/en-us/azure/migrate/migrate-overview>   |
-| Azure TCO Calculator  | https://azure.microsoft.com/en-us/pricing/tco/calculator/  |
+| Azure Pricing Calculator  | <https://azure.microsoft.com/en-us/pricing/calculator/>  |
+| Azure TCO Calculator  | <https://azure.microsoft.com/en-us/pricing/tco/calculator/>  |
 | Azure Site Recovery | <https://docs.microsoft.com/en-us/azure/site-recovery/>    |
 | Database Migration Guide   | <https://datamigration.microsoft.com/>      |
+| Windows Server Migration Guide   | <https://go.microsoft.com/fwlink/?linkid=872689>      |
 | Azure Database Migration Service   | <https://docs.microsoft.com/en-us/azure/dms/dms-overview>      |
 | Data Migration Assistant   | <https://docs.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-2017>      |
 | Database Experimentation Assistant   | https://blogs.msdn.microsoft.com/datamigration/2018/08/06/release-database-experimentation-assistant-dea-v2-6/      |
