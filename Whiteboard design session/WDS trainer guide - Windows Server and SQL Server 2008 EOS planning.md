@@ -171,7 +171,7 @@ When participants are doing activities, you can **look ahead to refresh your mem
 
 ## Abstract and learning objectives
 
-Many customers have huge on-premises footprints of Windows Server and SQL Server 2008 and 2008 R2, but these products are rapidly approaching End of Support. This session is designed to help customers understand the risks of running unsupported software and presents great options for using EOS to modernize in Azure or on-premises.
+Many customers have huge on-premises footprints of Windows Server and SQL Server 2008 and 2008 R2, but these products are rapidly approaching End of Support (EOS). This session is designed to help customers understand the risks of running unsupported software and presents great options for using EOS to modernize in Azure or on-premises.
 
 In this whiteboard design session, you will work with a group to look at the process of migrating workloads to Azure.
 
