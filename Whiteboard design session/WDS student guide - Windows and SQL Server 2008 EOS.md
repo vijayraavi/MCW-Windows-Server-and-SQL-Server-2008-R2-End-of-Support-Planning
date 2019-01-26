@@ -9,7 +9,7 @@ Whiteboard design session student guide
 </div>
 
 <div class="MCWHeader3">
-September 2018
+December 2018
 </div>
 
 
@@ -96,7 +96,7 @@ They would also like a long-term plan to take advantage of the new advancements 
 
 5.  Applications that are not moving to Azure will need to be optimized on-premises.
 
-6.  As part of the anaysis, Fabrikam would like to beter understand how to analyze cose of a solution that is slated to be migrated to Azure. They have chosen an application solution that represents a fairly common pattern in their enviornment and would like you to provide total cost of ownership analysis of this solution in Azure. 
+6.  As part of the analysis, Fabrikam would like to better understand how to analyze cost of a solution that is slated to be migrated to Azure. They have chosen an application solution that represents a fairly common pattern in their environment and would like you to provide total cost of ownership analysis of this solution in Azure. 
 
 ### Customer objections 
 
@@ -162,7 +162,7 @@ _Assess - Plan for end of support_
 
     b. Rehost - Migrate to cloud
 
-    Additionaly, provide a one year total cost of ownership analysis for migrating the follwing example solution to Azure. The details below represent a common pattern seen in Fabrikam's environment. Provide analysis for migrating this solution from Fabrikam's Michigan datacenter to the North Central US region of Azure. You can use state averages for utility rates, you may accept the defaults for information that is not provided below.
+    Additionally, provide a one-year total cost of ownership analysis for migrating the following example solution to Azure. The details below represent a common pattern seen in Fabrikam's environment. Provide analysis for migrating this solution from Fabrikam's Michigan datacenter to the North Central US region of Azure. You can use state averages for utility rates, you may accept the defaults for information that is not provided below.
 
     |    |            |            |
     |----------|-------------|-------------|
