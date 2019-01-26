@@ -16,7 +16,7 @@ This workshop only has a whiteboard design session at this time, please see belo
 ### Whiteboard design session
 In this whiteboard design session, you will work with a group to look at the process of migrating workloads to Azure. 
 
-At the end of this whiteboard design session, you will leave with the information needed to develop a solid migration plan to keep mission-critical apps and data protected as they are transitioned and modernized. Topics covered will include how to get an inventory of a 2008 server environment, how to categorize 2008 workloads and evaluate the best option for each category, migration and upgrade tools available, TCO analysis tools, offers available from Microsoft to leverage existing licenses and innovations of recent product updates, licensing and technologies.     
+At the end of this whiteboard design session, you will leave with the information needed to develop a solid migration plan to keep mission-critical apps and data protected as they are transitioned and modernized. Topics covered will include how to get an inventory of a 2008 server environment, how to categorize 2008 workloads and evaluate the best option for each category, migration and upgrade tools available, TCO analysis tools, offers available from Microsoft to leverage existing licenses and innovations of recent product updates, licensing and technologies.    
 
 ### Hands-on lab
 There is no hands-on lab for the workshop. 
