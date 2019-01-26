@@ -222,7 +222,7 @@ They would also like a long-term plan to take advantage of the new advancements 
 
 5.  Applications that are not moving to Azure will need to be optimized on-premises.
 
-6.  As part of the anaysis, Fabrikam would like to beter understand how to analyze cose of a solution that is slated to be migrated to Azure. They have chosen an application solution that represents a fairly common pattern in their enviornment and would like you to provide total cost of ownership analysis of this solution in Azure. 
+6.  As part of the analysis, Fabrikam would like to better understand how to analyze cost of a solution that is slated to be migrated to Azure. They have chosen an application solution that represents a fairly common pattern in their environment and would like you to provide total cost of ownership analysis of this solution in Azure.
 
 ### Customer objections 
 
@@ -288,7 +288,7 @@ _Assess - Plan for end of support_
 
     b. Rehost - Migrate to cloud
 
-    Additionaly, provide a one year total cost of ownership analysis for migrating the follwing example solution to Azure. The details below represent a common pattern seen in Fabrikam's environment. Provide analysis for migrating this solution from Fabrikam's Michigan datacenter to the North Central US region of Azure. You can use state averages for utility rates, you may accept the defaults for information that is not provided below.
+    Additionally, provide a one-year total cost of ownership analysis for migrating the following example solution to Azure. The details below represent a common pattern seen in Fabrikam's environment. Provide analysis for migrating this solution from Fabrikam's Michigan datacenter to the North Central US region of Azure. You can use state averages for utility rates, you may accept the defaults for information that is not provided below.
 
     |    |            |            |
     |----------|-------------|-------------|
@@ -541,7 +541,7 @@ _Assess - Plan for end of support_
 
     For those that cannot migrate to Azure there is also an option to purchase Extended Security Updates. 
 
-    To estimate cost savings, Fabrikam should use the Azure TCO Calculator. The below example uses the information provided, the current Michigan average electricity rates and migration to the North Central US Azure region. Your results may be different as Azure pricing and electricty rates change.
+    To estimate cost savings, Fabrikam should use the Azure TCO Calculator. The below example uses the information provided, the current Michigan average electricity rates and migration to the North Central US Azure region. Your results may be different as Azure pricing and electrcity rates change.
 
     ![Graphic of the Azure TCO Calculator showing an example of the potential cost savings from an Azure migration.](images/2018-12-17_10-27-45.png)
 
@@ -658,7 +658,7 @@ _Optimize_
 
     **Potential answer:**
 
-    Since Fabrikam has Software Assurance benefits, they are eligible to purchase Extended Security Updates for those servers that may not be upgraded due to supportability or third party support requirements all while allowing you to maintain compliance. 
+    Since Fabrikam has Software Assurance benefits, they are eligible to purchase Extended Security Updates for those servers that may not be upgraded due to supportability or third-party support requirements all while allowing you to maintain compliance. 
 
 
 2.  We have hundreds of applications that are running on servers that are nearing end of support. Some are virtual machines running on VMWare, some are older physical machines. Does Microsoft have any tools to help us identify these applications?
