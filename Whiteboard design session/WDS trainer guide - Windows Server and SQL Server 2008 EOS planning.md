@@ -203,7 +203,7 @@ Fabrikam does not have a complete company-wide inventory of the number of server
 
 Fabrikam currently has many legacy applications that are running on Windows Server 2008 including a line of business inventory management system that also leverages SQL Server 2008. The inventory management system is considered a mission critical application. It is highly complex and is leveraged by various parts of the business with many upstream and downstream dependencies. Some of these dependencies are Linux systems. Because many of these systems are critical to the business, they need to understand the business continuity and disaster recovery options when upgrading in place or migrating to the cloud.
 
-The Inventory Management system is one of the most critical systems at Fabrikam. It was originally architected when the company was much smaller. It currently runs on Windows Server 2008 R2 with a separate SQL Server 2008 backend. The application team that supports it would ultimately like to rearchitect the system for better scalability and to take better advantage of new innovations in inventory tracking. They see cloud technologies as a good fit for this type of application, but they lack the experience, expertise and time to rebuild the application right now.
+The Inventory Management system is one of the most critical systems at Fabrikam. It was originally architected when the company was much smaller. It currently runs on Windows Server 2008 R2 with a separate SQL Server 2008 back end. The application team that supports it would ultimately like to rearchitect the system for better scalability and to take better advantage of new innovations in inventory tracking. They see cloud technologies as a good fit for this type of application, but they lack the experience, expertise and time to rebuild the application right now.
 
 They would like a short-term plan to maintain support of the system while the application team reskills and gains experience in Azure.
 They would also like a long-term plan to take advantage of the new advancements in SQL Server while still getting the most out of their Azure investment by minimizing the administrative overhead.
@@ -541,7 +541,7 @@ _Assess - Plan for end of support_
 
     For those that cannot migrate to Azure there is also an option to purchase Extended Security Updates. 
 
-    To estimate cost savings, Fabrikam should use the Azure TCO Calculator. The below example uses the information provided, the current Michigan average electricity rates and migration to the North Central US Azure region. Your results may be different as Azure pricing and electrcity rates change.
+    To estimate cost savings, Fabrikam should use the Azure TCO Calculator. The below example uses the information provided, the current Michigan average electricity rates and migration to the North Central US Azure region. Your results may be different as Azure pricing and electricity rates change.
 
     ![Graphic of the Azure TCO Calculator showing an example of the potential cost savings from an Azure migration.](images/2018-12-17_10-27-45.png)
 
