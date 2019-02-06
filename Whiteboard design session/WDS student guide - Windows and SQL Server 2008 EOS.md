@@ -130,27 +130,33 @@ They would also like a long-term plan to take advantage of the new advancements 
 
 ![Azure Cost Management by Cloudyn allows you to monitor and visualize usage and cost to better optimize your cloud spend.](images/2018-06-15-16-00-20.png)
 
-## Step 2: Design a proof of concept solution
+## Step 2: Design and present the solution
 
 **Outcome**
 
-Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format.
+Present a part of the solution to the target customer audience in a 15-minute chalk-talk format.
 
-Timeframe: 60 minutes
+Timeframe: 3 parts, 15 minutes each
 
-**Business needs**
+**Presentation**
 
-Directions:  With all participants at your table, answer the following questions and list the answers on a flip chart:
+Directions:
 
-1.  Who should you present this solution to? Who is your target customer audience? Who are the decision makers?
+1.  Pair with another table.
 
-2.  What customer business needs do you need to address with your solution?
+2.  One table is the Microsoft team and the other table is the customer.
 
-**Design**
+3.  The Microsoft team presents part of the proposed solution to the customer.
 
-Directions: With all participants at your table, respond to the following questions on a flip chart:
+4.  The customer makes one of the objections from the list of objections.
 
-_Assess - Plan for end of support_
+5.  The Microsoft team responds to the objection.
+
+6.  The customer team gives feedback to the Microsoft team.
+
+7.  Tables switch roles and repeat Steps 2-6.
+
+_Part 1 - Assess - Plan for end of support_
 
 - **Inventory**: Fabrikam needs to build an inventory of their current systems. Determine what needs to be tracked in this inventory. What information would you track in your inventory to help Fabrikam organize and prioritize systems for their end of support planning? How would you prioritize systems?
 
@@ -207,7 +213,7 @@ _Assess - Plan for end of support_
     |  | Geo-redundant storage: | Off |
     |  | Virtual Machine costs: | On |
 
-_Migrate - Upgrade in place or migrate to Azure_
+_Part 2 - Migrate - Upgrade in place or migrate to Azure_
 
 -  **Migration strategy:** Fabrikam would like to take full advantage of the cloud. They would like to create a multifaceted application strategy to determine how applications will be migrated to Azure. You need to identify the various paths to moving applications to the cloud and when each path provides the highest value.
 
@@ -227,7 +233,7 @@ _Migrate - Upgrade in place or migrate to Azure_
 
 -  **Diagram the solution**
 
-_Optimize_
+_Part 3 - Optimize_
 
 -  **Security and Authentication:** How will Active Directory be managed in the cloud? Will we continue to do things the way we have in the past?
 
@@ -237,47 +243,9 @@ _Optimize_
 
 -  **SQL Database Management:** What type of database administration tasks can we automate in Azure SQL Database? We are looking to minimize the amount of administrative tasks our DBAs are doing and focus them on higher value tasks.
 
-**Prepare**
+##  Step 3: Wrap-up 
 
-Directions: With all participants at your table:
-
-1.  Identify any customer needs that are not addressed with the proposed solution.
-
-2.  Identify the benefits of your solution.
-
-3.  Determine how you will respond to the customer's objections.
-
-Prepare a 15-minute chalk-talk style presentation to the customer.
-
-## Step 3: Present the solution
-
-**Outcome**
-
-Present a solution to the target customer audience in a 15-minute chalk-talk format.
-
-Timeframe: 30 minutes
-
-**Presentation**
-
-Directions:
-
-1.  Pair with another table.
-
-2.  One table is the Microsoft team and the other table is the customer.
-
-3.  The Microsoft team presents their proposed solution to the customer.
-
-4.  The customer makes one of the objections from the list of objections.
-
-5.  The Microsoft team responds to the objection.
-
-6.  The customer team gives feedback to the Microsoft team.
-
-7.  Tables switch roles and repeat Steps 2-6.
-
-##  Wrap-up 
-
-Timeframe: 15 minutes
+Timeframe: 20 minutes
 
 Directions: Tables reconvene with the larger group to hear the facilitator/SME share the preferred solution for the case study.
 
