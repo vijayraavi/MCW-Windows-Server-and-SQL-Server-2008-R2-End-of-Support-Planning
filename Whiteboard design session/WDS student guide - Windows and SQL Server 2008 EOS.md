@@ -112,23 +112,6 @@ They would also like a long-term plan to take advantage of the new advancements 
 
 6.  How will migrating from SQL Server to Azure SQL Database impact the role of our database administration team?
 
-### Infographic for common scenarios
-
-**Azure Migrate**
-
-![Azure Migrate allows easy discovery VMWare VMs and applications including service dependencies.](images/2018-06-15-15-58-44.png)
-
-**Azure Database Migration Service**
-
-![The Azure Database Migration Service allows you to migrate from multiple database sources to Azure Data platforms with minimal downtime.](images/2018-06-15-15-59-12.png)
-
-**Azure Security Center**
-
-![The Azure Security Center provides a unified view of security across on-premises and cloud workloads.](images/2018-06-15-15-59-48.png)
-
-**Cost Management for Azure**
-
-![Azure Cost Management by Cloudyn allows you to monitor and visualize usage and cost to better optimize your cloud spend.](images/2018-06-15-16-00-20.png)
 
 ## Step 2: Design and present the solution
 
