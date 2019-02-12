@@ -119,7 +119,7 @@ They would also like a long-term plan to take advantage of the new advancements 
 
 Present a part of the solution to the target customer audience in a 15-minute chalk-talk format.
 
-Timeframe: 3 parts, 15 minutes each
+Timeframe: 3 parts, 20 minutes each
 
 **Presentation**
 
