@@ -187,7 +187,7 @@ _Part 1 - Assess - Plan for end of support_
     |  | *Destination server* |  |
     |  | Service: | SQL Database Managed Instance |
     |  | Managed instance tier: | General purpose |
-    |  | Managed instance cores: | 2 |
+    |  | Managed instance cores: | 8 |
     |  | SQL Server storage: | 500 GB |
     |  | SQL Server backup: | 1 TB |
     | Adjust assumptions |  |
